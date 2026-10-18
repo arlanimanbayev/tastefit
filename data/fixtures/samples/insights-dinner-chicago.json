@@ -1,0 +1,133 @@
+{
+ "success": true,
+ "results": {
+  "entities": [
+   {
+    "entity_id": "E7A02EA5-6573-421B-A0E8-3D8AE56100E1",
+    "name": "Hanok Table",
+    "popularity": 0.86,
+    "properties": {
+     "address": "1000 Halsted St, Chicago",
+     "price_level": 2,
+     "business_rating": 4.6,
+     "short_description": "Korean barbecue and banchan at shared tabletop grills."
+    },
+    "tags": [
+     {
+      "id": "urn:tag:genre:place:restaurant",
+      "name": "Restaurant",
+      "type": "urn:tag:genre:place"
+     },
+     {
+      "id": "urn:tag:genre:place:restaurant:korean",
+      "name": "Korean",
+      "type": "urn:tag:genre:place"
+     }
+    ],
+    "location": {
+     "lat": 41.8965,
+     "lon": -87.6202
+    },
+    "type": "urn:entity",
+    "subtype": "urn:entity:place",
+    "query": {
+     "affinity": 0.7004,
+     "explainability": {
+      "signal.interests.entities": [
+       {
+        "entity_id": "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9",
+        "score": 0
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_id": "577088BF-4D60-4C13-ADD2-A4BB1541C5D5",
+    "name": "Seoul Fried",
+    "popularity": 0.79,
+    "properties": {
+     "address": "3124 Halsted St, Chicago",
+     "price_level": 1,
+     "business_rating": 4.5,
+     "short_description": "Korean fried chicken, soju and K-pop on the speakers."
+    },
+    "tags": [
+     {
+      "id": "urn:tag:genre:place:restaurant",
+      "name": "Restaurant",
+      "type": "urn:tag:genre:place"
+     },
+     {
+      "id": "urn:tag:genre:place:restaurant:korean",
+      "name": "Korean",
+      "type": "urn:tag:genre:place"
+     }
+    ],
+    "location": {
+     "lat": 41.8955,
+     "lon": -87.6282
+    },
+    "type": "urn:entity",
+    "subtype": "urn:entity:place",
+    "query": {
+     "affinity": 0.6494,
+     "explainability": {
+      "signal.interests.entities": [
+       {
+        "entity_id": "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9",
+        "score": 0
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_id": "6183A7C9-943F-4C6E-ABE7-C14598BAD257",
+    "name": "Green Room Kitchen",
+    "popularity": 0.74,
+    "properties": {
+     "address": "3262 Fulton Market, Chicago",
+     "price_level": 2,
+     "business_rating": 4.4,
+     "short_description": "Seasonal plant-based small plates."
+    },
+    "tags": [
+     {
+      "id": "urn:tag:genre:place:restaurant",
+      "name": "Restaurant",
+      "type": "urn:tag:genre:place"
+     },
+     {
+      "id": "urn:tag:genre:place:restaurant:vegan",
+      "name": "Vegan",
+      "type": "urn:tag:genre:place"
+     },
+     {
+      "id": "urn:tag:genre:place:restaurant:vegetarian",
+      "name": "Vegetarian",
+      "type": "urn:tag:genre:place"
+     }
+    ],
+    "location": {
+     "lat": 41.8995,
+     "lon": -87.6422
+    },
+    "type": "urn:entity",
+    "subtype": "urn:entity:place",
+    "query": {
+     "affinity": 0.6301,
+     "explainability": {
+      "signal.interests.entities": [
+       {
+        "entity_id": "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9",
+        "score": 0.244
+       }
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "duration": 18
+}

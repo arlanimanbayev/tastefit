@@ -1,0 +1,27 @@
+{
+ "success": true,
+ "results": {
+  "tags": [
+   {
+    "id": "urn:tag:genre:place:restaurant:korean",
+    "name": "Korean",
+    "type": "urn:tag:genre:place",
+    "parents": [
+     {
+      "type": "urn:entity:place"
+     }
+    ]
+   },
+   {
+    "id": "urn:tag:genre:place:restaurant",
+    "name": "Restaurant",
+    "type": "urn:tag:genre:place",
+    "parents": [
+     {
+      "type": "urn:entity:place"
+     }
+    ]
+   }
+  ]
+ }
+}

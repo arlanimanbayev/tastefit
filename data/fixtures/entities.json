@@ -1,0 +1,3609 @@
+{
+ "urn:entity:artist": [
+  {
+   "entity_id": "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9",
+   "name": "Phoebe Bridgers",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_folk",
+     "name": "Indie Folk",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:singer_songwriter",
+     "name": "Singer-Songwriter",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "649CF656-2F02-4B78-A13E-CF2AD18A8F40",
+   "name": "Mitski",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "short_description": "Japanese-American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:alt_pop",
+     "name": "Alt Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "D9571B39-1CC9-409E-A9ED-A0ACD91F88DB",
+   "name": "Bon Iver",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "short_description": "American indie folk band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_folk",
+     "name": "Indie Folk",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "6D24F7A2-C9E3-4126-ACB6-7ADD316F3422",
+   "name": "Lana Del Rey",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "short_description": "American singer and songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:dream_pop",
+     "name": "Dream Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:alt_pop",
+     "name": "Alt Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "835203BA-01BE-4F32-A5D3-CFDCFE73D686",
+   "name": "Taylor Swift",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.99,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:singer_songwriter",
+     "name": "Singer-Songwriter",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "713EAF22-EF2F-4822-AF52-2470BF7B739A",
+   "name": "Beyoncé",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.98,
+   "properties": {
+    "short_description": "American singer and performer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:r_and_b",
+     "name": "R&B",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "EF0C6BA2-0FB4-4A23-A4D0-C55F590B2215",
+   "name": "Kendrick Lamar",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "short_description": "American rapper and songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:hip_hop",
+     "name": "Hip Hop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "1B34B508-4F60-4E7B-AF61-0C20E41F08A1",
+   "name": "Frank Ocean",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "short_description": "American singer and songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:r_and_b",
+     "name": "R&B",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:alt_pop",
+     "name": "Alt Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "8506632B-2F9B-445A-A987-C0D1EDB1536A",
+   "name": "SZA",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "short_description": "American singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:r_and_b",
+     "name": "R&B",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "56E16C76-333C-43D3-AA56-390FA1C306EB",
+   "name": "Daft Punk",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "short_description": "French electronic music duo"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:house",
+     "name": "House",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "1970BD59-7AE1-47D8-A295-72433BB5F37A",
+   "name": "Fred again..",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.89,
+   "properties": {
+    "short_description": "British producer and DJ"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:house",
+     "name": "House",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "CD373F15-14BA-45FC-AE12-05F9F4E41B1F",
+   "name": "Tame Impala",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "short_description": "Australian psychedelic music project"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:psychedelic",
+     "name": "Psychedelic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_pop",
+     "name": "Indie Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "5469375C-8FFE-4610-A425-4CB5998C6B58",
+   "name": "Khruangbin",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "short_description": "American trio from Houston"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:psychedelic",
+     "name": "Psychedelic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:funk",
+     "name": "Funk",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "996C19CA-98CB-4E9D-ACAD-BC7255A7AF20",
+   "name": "Radiohead",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "short_description": "English rock band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "954B4ACB-BF37-4900-A313-2D2B26220990",
+   "name": "Arctic Monkeys",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "short_description": "English rock band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "E36B0AA9-36C2-478F-AC82-C97E01DCC2B1",
+   "name": "NewJeans",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "short_description": "South Korean girl group"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:k_pop",
+     "name": "K-Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "98E4D2F9-355D-4376-A895-B9244C3CC412",
+   "name": "BTS",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "short_description": "South Korean boy band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:k_pop",
+     "name": "K-Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "BDBC5B77-49EF-4D5C-A50A-E58BCED10789",
+   "name": "BLACKPINK",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "short_description": "South Korean girl group"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:k_pop",
+     "name": "K-Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "E9BB7D97-124D-4B10-A199-2B0AE0A033E3",
+   "name": "Bad Bunny",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "short_description": "Puerto Rican rapper and singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:latin",
+     "name": "Latin",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:hip_hop",
+     "name": "Hip Hop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "4AB7DBEE-5ED5-4942-A237-5340FAB8AC62",
+   "name": "Rosalía",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "short_description": "Spanish singer and songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:latin",
+     "name": "Latin",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "E9C5648B-9DCB-4897-AA9A-D4078B492F6A",
+   "name": "Miles Davis",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "short_description": "American jazz trumpeter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:jazz",
+     "name": "Jazz",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "559DCCC3-D51E-49A7-A010-3F4A7C63BEFD",
+   "name": "Norah Jones",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.87,
+   "properties": {
+    "short_description": "American singer and pianist"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:jazz",
+     "name": "Jazz",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:singer_songwriter",
+     "name": "Singer-Songwriter",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "B93361DC-D29F-41AF-AECD-91F5BB1CB342",
+   "name": "Kamasi Washington",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "short_description": "American jazz saxophonist"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:jazz",
+     "name": "Jazz",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "0F3A8269-F8F7-43D0-AE4E-235B3BE19F7E",
+   "name": "Billie Eilish",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:alt_pop",
+     "name": "Alt Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "3860BA15-B1F1-44F1-AE76-F64A1C3A4B4B",
+   "name": "Olivia Rodrigo",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "E710CECE-11CC-4AC6-A290-E874ADA38DCC",
+   "name": "Fleetwood Mac",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "short_description": "British-American rock band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:soft_rock",
+     "name": "Soft Rock",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "1FB10AFC-867C-4CF9-A087-105B07A7B56A",
+   "name": "Stevie Wonder",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "short_description": "American singer and multi-instrumentalist"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:soul",
+     "name": "Soul",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:funk",
+     "name": "Funk",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "1C44D74F-E4DE-4CBA-AE77-ED098C5E4BDF",
+   "name": "Hozier",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.91,
+   "properties": {
+    "short_description": "Irish musician"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_folk",
+     "name": "Indie Folk",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:soul",
+     "name": "Soul",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "C3C1974E-4459-4F8A-A8D3-583CE0175AA1",
+   "name": "Vampire Weekend",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "short_description": "American indie rock band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_pop",
+     "name": "Indie Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "0B6026C8-9ADE-4CAF-A2FC-47CB69F919BE",
+   "name": "LCD Soundsystem",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "short_description": "American dance-punk band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "8D589AAB-2AAC-4734-AF8E-A0654C2B9FCD",
+   "name": "The Weeknd",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "short_description": "Canadian singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:r_and_b",
+     "name": "R&B",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "F5B4F062-7C59-4F4C-AC49-127D17EA0A2C",
+   "name": "Harry Styles",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "short_description": "English singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "342B7FC6-85EF-4DBE-A307-8431F161A20F",
+   "name": "Joji",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "short_description": "Japanese-Australian singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:r_and_b",
+     "name": "R&B",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:bedroom_pop",
+     "name": "Bedroom Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "F6908B8E-275F-4E33-AA55-282546DBE316",
+   "name": "Ryuichi Sakamoto",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.83,
+   "properties": {
+    "short_description": "Japanese composer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:ambient",
+     "name": "Ambient",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:neo_classical",
+     "name": "Neo-Classical",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "98059534-5C87-47BE-A39A-F0E4D1EFF61E",
+   "name": "Hikaru Utada",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.85,
+   "properties": {
+    "short_description": "Japanese-American singer"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:j_pop",
+     "name": "J-Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:pop",
+     "name": "Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "558932CD-6D38-4A28-A9E4-845340AC09C8",
+   "name": "Mac DeMarco",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.85,
+   "properties": {
+    "short_description": "Canadian singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:bedroom_pop",
+     "name": "Bedroom Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "FCFD9B67-5A6E-46A2-A98F-660FA4730518",
+   "name": "Japanese Breakfast",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.83,
+   "properties": {
+    "short_description": "American indie pop project"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_pop",
+     "name": "Indie Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:dream_pop",
+     "name": "Dream Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "0EFBD98F-7F68-443A-A96F-3970C0ACD77A",
+   "name": "Childish Gambino",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "short_description": "American artist"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:hip_hop",
+     "name": "Hip Hop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:funk",
+     "name": "Funk",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "0A0967F5-2E17-4A8C-A826-558E116C2967",
+   "name": "Ludovico Einaudi",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "short_description": "Italian composer and pianist"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:neo_classical",
+     "name": "Neo-Classical",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "62BDE320-EC8B-435C-A327-E5526ED38401",
+   "name": "Gorillaz",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "short_description": "British virtual band"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:hip_hop",
+     "name": "Hip Hop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "BF6B4FE2-CE87-4148-A652-3811FC54BBCB",
+   "name": "Clairo",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:bedroom_pop",
+     "name": "Bedroom Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_pop",
+     "name": "Indie Pop",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "0F677F12-C3E5-44C8-AEAD-69ACB038D015",
+   "name": "Toro y Moi",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "short_description": "American musician"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:electronic",
+     "name": "Electronic",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:psychedelic",
+     "name": "Psychedelic",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "117BD341-4F55-4409-A9FA-5BF61AEAE5CC",
+   "name": "Buena Vista Social Club",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "short_description": "Cuban ensemble"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:latin",
+     "name": "Latin",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:jazz",
+     "name": "Jazz",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  },
+  {
+   "entity_id": "B738905C-9417-49F9-A199-AE18C66E064E",
+   "name": "IU",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "short_description": "South Korean singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:k_pop",
+     "name": "K-Pop",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:singer_songwriter",
+     "name": "Singer-Songwriter",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  }
+ ],
+ "urn:entity:movie": [
+  {
+   "entity_id": "5DBE48E3-1FB7-41C5-A0B3-D05BBDD306A7",
+   "name": "Parasite",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "release_year": 2019,
+    "short_description": "A poor family schemes its way into a wealthy household."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "2FFB58F2-04D3-4717-A501-287CA40E9474",
+   "name": "Lady Bird",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "A Sacramento teenager counts down to leaving home."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:coming_of_age",
+     "name": "Coming of Age",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "1EA67F39-1C2F-4BF4-A445-B0E972D5FEB8",
+   "name": "Blade Runner 2049",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "A replicant hunter uncovers a buried secret."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "B81BA0D0-971A-4A26-AD6A-B1C9F7B35C91",
+   "name": "Everything Everywhere All at Once",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "A laundromat owner fights across the multiverse."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "64361303-514B-4D55-A69E-41317AE638CB",
+   "name": "Past Lives",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2023,
+    "short_description": "Two childhood friends reunite decades later."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "37090779-3B78-4BDF-A7C6-AFA95640D8B2",
+   "name": "The Grand Budapest Hotel",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2014,
+    "short_description": "A concierge and his lobby boy chase a stolen painting."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "8A02D382-832A-4D92-A071-45A3399B8133",
+   "name": "Spirited Away",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "release_year": 2001,
+    "short_description": "A girl is trapped in a world of spirits."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:animation",
+     "name": "Animation",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:fantasy",
+     "name": "Fantasy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:family",
+     "name": "Family",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "01EB0589-8333-4128-AD4B-49CDEFB00EE4",
+   "name": "La La Land",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "A jazz pianist and an actress fall in love in LA."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:musical",
+     "name": "Musical",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "4B630FD3-FF5A-47A2-A7DC-A6554E0572DF",
+   "name": "Moonlight",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "Three chapters of one young man’s life in Miami."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:coming_of_age",
+     "name": "Coming of Age",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "A640793F-3DA4-44D5-AEBA-8F7E77C36778",
+   "name": "Whiplash",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "release_year": 2014,
+    "short_description": "A drummer and a ruthless bandleader."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:musical",
+     "name": "Musical",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "3CDBC257-F5EF-4A70-AD70-D1E838046BF7",
+   "name": "Dune: Part Two",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "release_year": 2024,
+    "short_description": "Paul Atreides unites with the Fremen."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "0BCA1407-F8A9-4B9B-AE02-3AE5E3CCE4ED",
+   "name": "Arrival",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.91,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "A linguist learns the language of visitors."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "50874B41-C44D-4376-A75B-DF8923E083C3",
+   "name": "Amélie",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2001,
+    "short_description": "A shy Parisian waitress quietly changes lives."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "B3E6B40F-BFAD-42D3-AF05-DD709AC9DB1C",
+   "name": "In the Mood for Love",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "release_year": 2000,
+    "short_description": "Two neighbours in 1960s Hong Kong."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:arthouse",
+     "name": "Arthouse",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "AA1797E9-AA88-4C36-AA43-01078D22646A",
+   "name": "Mad Max: Fury Road",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2015,
+    "short_description": "A desert chase across a wasteland."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "355816A2-73AA-4084-AA67-EC5E4CC64536",
+   "name": "Get Out",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "A weekend visit to his girlfriend’s family turns sinister."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "5BF021A3-3D35-4083-A5B8-E3D5ABA0E5F9",
+   "name": "Knives Out",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "release_year": 2019,
+    "short_description": "A detective untangles a family murder mystery."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "65AECB46-E379-4B61-AC8D-F91CDB14E7CA",
+   "name": "Before Sunrise",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.85,
+   "properties": {
+    "release_year": 1995,
+    "short_description": "Two strangers walk and talk through Vienna."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "548E699B-16C2-489B-AA5B-8956D50858C6",
+   "name": "Aftersun",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "A woman revisits a holiday with her father."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "13C7279C-D47F-49D0-A4B9-7FC38FF1959C",
+   "name": "Interstellar",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "release_year": 2014,
+    "short_description": "Explorers travel through a wormhole to save humanity."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "AAB4D0AA-1D15-4678-AF71-7A9EE5BADF27",
+   "name": "The Social Network",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2010,
+    "short_description": "The founding of Facebook and the lawsuits after."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "C2B5A880-BC99-419F-AE9C-B2653CF4140F",
+   "name": "Chef",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.83,
+   "properties": {
+    "release_year": 2014,
+    "short_description": "A chef starts over with a food truck."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "B8C1D7F3-A045-4B4A-A9C9-FF9C4FE56401",
+   "name": "Spider-Man: Into the Spider-Verse",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "Miles Morales becomes Spider-Man."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:animation",
+     "name": "Animation",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "03B2D6D9-E004-4A9B-AE32-05C11A860613",
+   "name": "Decision to Leave",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.82,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "A detective falls for a murder suspect."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "6FDC49F9-B717-4DF8-AA4B-E957C3674075",
+   "name": "Barbie",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2023,
+    "short_description": "Barbie leaves Barbieland for the real world."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "24F56BA1-DD7F-4253-A622-BA4081710645",
+   "name": "Oppenheimer",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "release_year": 2023,
+    "short_description": "The physicist behind the atomic bomb."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "9A3C181E-ED9F-4CC3-ADF3-78E71D547A81",
+   "name": "Eternal Sunshine of the Spotless Mind",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.91,
+   "properties": {
+    "release_year": 2004,
+    "short_description": "A couple erases each other from memory."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "1493EAAF-2468-4F3F-AE43-648B220FCF74",
+   "name": "Shoplifters",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.82,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "A makeshift family survives on petty theft."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "CC688EBA-050C-4CEC-AD06-C26AAAEBC778",
+   "name": "Jiro Dreams of Sushi",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "release_year": 2011,
+    "short_description": "A portrait of an 85-year-old sushi master."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:documentary",
+     "name": "Documentary",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "5E9A56C1-C48A-4AE0-AE78-613AAF67FB41",
+   "name": "The Princess Bride",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 1987,
+    "short_description": "A storybook adventure of true love."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:family",
+     "name": "Family",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "0A37D2F0-7C6F-4146-A66A-4005B1BE70F4",
+   "name": "Ratatouille",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2007,
+    "short_description": "A rat dreams of cooking in Paris."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:animation",
+     "name": "Animation",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:family",
+     "name": "Family",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "1ED2B6F9-DC63-4AC6-AEBC-B7BCB2AEB43E",
+   "name": "Coco",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "A boy journeys to the Land of the Dead."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:animation",
+     "name": "Animation",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:family",
+     "name": "Family",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:musical",
+     "name": "Musical",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "02B43C7F-D376-42A2-A8B5-2C4810429519",
+   "name": "Roma",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "A year in the life of a housekeeper in 1970s Mexico City."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:arthouse",
+     "name": "Arthouse",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "2EE8BFEF-B345-4800-A82B-271B26337E5F",
+   "name": "Lost in Translation",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2003,
+    "short_description": "Two Americans drift together in Tokyo."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "CE372AE9-D2E9-4F96-AF29-FDAD71F8B95F",
+   "name": "Paddington 2",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "Paddington hunts for a stolen pop-up book."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:family",
+     "name": "Family",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "E1EA69D4-1CEC-4C67-A865-F69B96381698",
+   "name": "The Matrix",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "release_year": 1999,
+    "short_description": "A hacker learns reality is a simulation."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "AD29889D-034F-4EED-A814-0FFA9E600113",
+   "name": "Little Forest",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.74,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "A young woman returns to her village and cooks through the seasons."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "88E1AE2A-4B99-4782-ABCA-E7293C301874",
+   "name": "Burning",
+   "types": [
+    "urn:entity:movie"
+   ],
+   "popularity": 0.78,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "A Murakami story turned slow-burn mystery."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:arthouse",
+     "name": "Arthouse",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  }
+ ],
+ "urn:entity:tv_show": [
+  {
+   "entity_id": "443EF182-C5E2-4C53-AFE3-E54EB506BACB",
+   "name": "The Bear",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.94,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "A fine-dining chef takes over his family sandwich shop."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "ADE173BD-9EF3-447F-A0F8-17AD64AC3FB9",
+   "name": "Fleabag",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "A woman navigates life and grief in London."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "1109CCC8-ABB4-4A9B-AB62-291288BB02BC",
+   "name": "Succession",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.95,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "A media dynasty fights over the throne."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "F217BB2E-F448-4ACF-A476-EFF7F70129D0",
+   "name": "Severance",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "Office workers split their work and home memories."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "C2C7D717-53AE-4E3D-A890-78B34AA879BB",
+   "name": "Stranger Things",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "Kids in 1980s Indiana face the Upside Down."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "16C7B6EB-95A7-47AC-AB41-A0841D8C0147",
+   "name": "Atlanta",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2016,
+    "short_description": "Two cousins work through the Atlanta rap scene."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "3A30CE8A-8E14-4FAA-A0B2-D45397E46C77",
+   "name": "Normal People",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2020,
+    "short_description": "Connell and Marianne drift together and apart over the years."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "FC9631CC-5369-40FD-AE72-77B8F502DFD8",
+   "name": "The Office",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "release_year": 2005,
+    "short_description": "A mockumentary about a paper company."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "48D45AB9-5CDB-4172-A5D0-C73EC048BE02",
+   "name": "Squid Game",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.97,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Debt-ridden players compete in deadly games."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:thriller",
+     "name": "Thriller",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "9AA7B9BB-0DB5-4F47-ABA4-7716836247B4",
+   "name": "Abbott Elementary",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.89,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Teachers keep an underfunded Philadelphia classroom going."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:comedy",
+     "name": "Comedy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "D12EF63E-867A-4C97-ADA3-A67422FFFAFB",
+   "name": "Chef's Table",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.85,
+   "properties": {
+    "release_year": 2015,
+    "short_description": "Profiles of the world’s most celebrated chefs."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:documentary",
+     "name": "Documentary",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "AFDD40E7-1579-41D1-A3E1-446613084945",
+   "name": "Shōgun",
+   "types": [
+    "urn:entity:tv_show"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2024,
+    "short_description": "An English navigator in feudal Japan."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  }
+ ],
+ "urn:entity:book": [
+  {
+   "entity_id": "0834EC67-C130-4494-AD73-4C4D92B70BE8",
+   "name": "Normal People",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "Book by Sally Rooney"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "650C2B0C-26BE-4825-AED3-0FA46B636B53",
+   "name": "Dune",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "release_year": 1965,
+    "short_description": "Book by Frank Herbert"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "D8A6A934-BE41-47B0-AB66-B35445CC7C37",
+   "name": "Project Hail Mary",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.92,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Book by Andy Weir"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "A8B733A1-9F17-417D-A5DF-63EAF40C4782",
+   "name": "The Midnight Library",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2020,
+    "short_description": "Book by Matt Haig"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:fantasy",
+     "name": "Fantasy",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "5001155F-0191-457F-AB3B-7344F9E82ABF",
+   "name": "Tomorrow, and Tomorrow, and Tomorrow",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.89,
+   "properties": {
+    "release_year": 2022,
+    "short_description": "Book by Gabrielle Zevin"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "4A33A4A0-9543-4986-A470-8474BBDA1A49",
+   "name": "Kitchen Confidential",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2000,
+    "short_description": "Book by Anthony Bourdain"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:memoir",
+     "name": "Memoir",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "9DBEC7D4-0CEC-4303-A08A-CD36DE681890",
+   "name": "Pachinko",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "Book by Min Jin Lee"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "908E3D0C-37C8-4182-A4FE-A4BCEF18DF56",
+   "name": "Circe",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2018,
+    "short_description": "Book by Madeline Miller"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:fantasy",
+     "name": "Fantasy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "F3E2606C-9A52-42E6-ABC1-38B495C1FF3F",
+   "name": "Norwegian Wood",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.89,
+   "properties": {
+    "release_year": 1987,
+    "short_description": "Book by Haruki Murakami"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "523B470D-0869-40D9-A545-D2B58D72546B",
+   "name": "Sapiens",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "release_year": 2011,
+    "short_description": "Book by Yuval Noah Harari"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:nonfiction",
+     "name": "Nonfiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "282C0FDC-8432-4EBE-A6A1-AA736DCD17D6",
+   "name": "The Hobbit",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.96,
+   "properties": {
+    "release_year": 1937,
+    "short_description": "Book by J. R. R. Tolkien"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:fantasy",
+     "name": "Fantasy",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:adventure",
+     "name": "Adventure",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "3194B23A-2DDA-4016-A2FC-7CA30B9C56C9",
+   "name": "Crying in H Mart",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.88,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Book by Michelle Zauner"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:memoir",
+     "name": "Memoir",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:food",
+     "name": "Food & Cooking",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "AC2AE7F9-CE78-4E81-A93C-100E30BFB9FE",
+   "name": "Beautiful World, Where Are You",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Book by Sally Rooney"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "B6859443-3802-43A1-A587-755E45F38401",
+   "name": "The Seven Husbands of Evelyn Hugo",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.9,
+   "properties": {
+    "release_year": 2017,
+    "short_description": "Book by Taylor Jenkins Reid"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:romance",
+     "name": "Romance",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:drama",
+     "name": "Drama",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  },
+  {
+   "entity_id": "3A62E51C-6FAF-4368-A3A8-FBD68F2DFB38",
+   "name": "Klara and the Sun",
+   "types": [
+    "urn:entity:book"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "release_year": 2021,
+    "short_description": "Book by Kazuo Ishiguro"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:media:science_fiction",
+     "name": "Science Fiction",
+     "type": "urn:tag:genre:media"
+    },
+    {
+     "id": "urn:tag:genre:media:literary_fiction",
+     "name": "Literary Fiction",
+     "type": "urn:tag:genre:media"
+    }
+   ]
+  }
+ ],
+ "urn:entity:place": [
+  {
+   "entity_id": "E7A02EA5-6573-421B-A0E8-3D8AE56100E1",
+   "name": "Hanok Table",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.86,
+   "properties": {
+    "address": "1000 Halsted St",
+    "price_level": 2,
+    "business_rating": 4.6,
+    "short_description": "Korean barbecue and banchan at shared tabletop grills."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:korean",
+     "name": "Korean",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8965,
+    "lon": -87.6202
+   }
+  },
+  {
+   "entity_id": "8E49F693-D6D3-4A10-AB2C-3677219602F0",
+   "name": "Night Market Noodle Bar",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "1377 Milwaukee Ave",
+    "price_level": 1,
+    "business_rating": 4.5,
+    "short_description": "Late-night ramen counter with a short, loud playlist."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:ramen",
+     "name": "Ramen",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:japanese",
+     "name": "Japanese",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8865,
+    "lon": -87.6162
+   }
+  },
+  {
+   "entity_id": "19C2BE10-5B42-4DE7-AF6F-AB2E613F798C",
+   "name": "Casa Ofrenda",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.83,
+   "properties": {
+    "address": "1754 Division St",
+    "price_level": 1,
+    "business_rating": 4.6,
+    "short_description": "Tacos al pastor off the trompo and mezcal flights."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:mexican",
+     "name": "Mexican",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9045,
+    "lon": -87.6302
+   }
+  },
+  {
+   "entity_id": "6220C096-E756-4831-AD51-499F2F42DE31",
+   "name": "Saltwater Omakase",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.78,
+   "properties": {
+    "address": "2131 Clark St",
+    "price_level": 4,
+    "business_rating": 4.8,
+    "short_description": "Twelve-seat omakase counter."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:sushi",
+     "name": "Sushi",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:japanese",
+     "name": "Japanese",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8905,
+    "lon": -87.6382
+   }
+  },
+  {
+   "entity_id": "62FDAB2F-5D88-4029-AE36-42F71F75C8EF",
+   "name": "Little Basil",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.79,
+   "properties": {
+    "address": "2508 Armitage Ave",
+    "price_level": 1,
+    "business_rating": 4.4,
+    "short_description": "Neighbourhood Thai with properly hot curries."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:thai",
+     "name": "Thai",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9105,
+    "lon": -87.6122
+   }
+  },
+  {
+   "entity_id": "2C8AE988-B685-4313-A68D-14DD79C2D217",
+   "name": "Forno Nove",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "address": "2885 Damen Ave",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "Wood-fired Neapolitan pizza and natural wine."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:pizza",
+     "name": "Pizza",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:italian",
+     "name": "Italian",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8825,
+    "lon": -87.6232
+   }
+  },
+  {
+   "entity_id": "6183A7C9-943F-4C6E-ABE7-C14598BAD257",
+   "name": "Green Room Kitchen",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.74,
+   "properties": {
+    "address": "3262 Fulton Market",
+    "price_level": 2,
+    "business_rating": 4.4,
+    "short_description": "Seasonal plant-based small plates."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:vegan",
+     "name": "Vegan",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:vegetarian",
+     "name": "Vegetarian",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8995,
+    "lon": -87.6422
+   }
+  },
+  {
+   "entity_id": "12096AE3-AA73-4E2F-A3FF-2DC1B658BD2C",
+   "name": "Smoke & Pine",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "1239 Wells St",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "Texas-style brisket and a long whiskey list."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:barbecue",
+     "name": "Barbecue",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8775,
+    "lon": -87.6322
+   }
+  },
+  {
+   "entity_id": "9FBBD065-EFCC-46C5-A476-8269894A94B1",
+   "name": "Brasserie Lumière",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.81,
+   "properties": {
+    "address": "1616 Belmont Ave",
+    "price_level": 3,
+    "business_rating": 4.6,
+    "short_description": "Steak frites and candlelit banquettes."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:french",
+     "name": "French",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8935,
+    "lon": -87.6092
+   }
+  },
+  {
+   "entity_id": "39C5856E-DEF7-48E5-A8DB-D9307FCD3657",
+   "name": "Golden Lantern Dim Sum",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.82,
+   "properties": {
+    "address": "1993 Lincoln Ave",
+    "price_level": 2,
+    "business_rating": 4.4,
+    "short_description": "Dim sum carts and soup dumplings."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:dim_sum",
+     "name": "Dim Sum",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:chinese",
+     "name": "Chinese",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9135,
+    "lon": -87.6352
+   }
+  },
+  {
+   "entity_id": "DAF00912-BEC8-43F7-A875-1C2405611398",
+   "name": "Spice Route",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.77,
+   "properties": {
+    "address": "2370 Ashland Ave",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "Regional Indian thalis and tandoor."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:indian",
+     "name": "Indian",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8735,
+    "lon": -87.6142
+   }
+  },
+  {
+   "entity_id": "5F804CE6-4360-493C-AE1A-668910C6B331",
+   "name": "Olive & Fig",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.76,
+   "properties": {
+    "address": "2747 Grand Ave",
+    "price_level": 2,
+    "business_rating": 4.4,
+    "short_description": "Mezze, grilled fish and a sunny patio."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:mediterranean",
+     "name": "Mediterranean",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9015,
+    "lon": -87.6052
+   }
+  },
+  {
+   "entity_id": "577088BF-4D60-4C13-ADD2-A4BB1541C5D5",
+   "name": "Seoul Fried",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.79,
+   "properties": {
+    "address": "3124 Halsted St",
+    "price_level": 1,
+    "business_rating": 4.5,
+    "short_description": "Korean fried chicken, soju and K-pop on the speakers."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:korean",
+     "name": "Korean",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8955,
+    "lon": -87.6282
+   }
+  },
+  {
+   "entity_id": "4FFE2634-319E-4FA4-AD1E-DF6115C9BDBE",
+   "name": "Izakaya Hoshi",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "1101 Milwaukee Ave",
+    "price_level": 2,
+    "business_rating": 4.6,
+    "short_description": "Skewers, highballs and a vinyl wall."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:japanese",
+     "name": "Japanese",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8885,
+    "lon": -87.6182
+   }
+  },
+  {
+   "entity_id": "E46B80B0-67FA-4704-A34C-D67282902594",
+   "name": "Tidewater Oyster House",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.75,
+   "properties": {
+    "address": "1478 Division St",
+    "price_level": 3,
+    "business_rating": 4.5,
+    "short_description": "Oysters, crudo and a raw bar."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:seafood",
+     "name": "Seafood",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9075,
+    "lon": -87.6242
+   }
+  },
+  {
+   "entity_id": "C33D60B6-2FAC-4A30-A9B5-309B80E18CF1",
+   "name": "Corner Counter",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.78,
+   "properties": {
+    "address": "1855 Clark St",
+    "price_level": 1,
+    "business_rating": 4.3,
+    "short_description": "Smash burgers and milkshakes at a diner counter."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:burgers",
+     "name": "Burgers",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8845,
+    "lon": -87.6452
+   }
+  },
+  {
+   "entity_id": "30CCA769-A43E-43B3-A90F-4ACC1E63BF59",
+   "name": "Pho Lantern",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.73,
+   "properties": {
+    "address": "2232 Armitage Ave",
+    "price_level": 1,
+    "business_rating": 4.4,
+    "short_description": "Slow-simmered pho and banh mi."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:place:restaurant",
+     "name": "Restaurant",
+     "type": "urn:tag:genre:place"
+    },
+    {
+     "id": "urn:tag:genre:place:restaurant:vietnamese",
+     "name": "Vietnamese",
+     "type": "urn:tag:genre:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9165,
+    "lon": -87.6202
+   }
+  },
+  {
+   "entity_id": "5BEDFB9F-C210-449D-A7BB-6E3E35BC3A1A",
+   "name": "Blue Hour Jazz Club",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.82,
+   "properties": {
+    "address": "2609 Damen Ave",
+    "price_level": 2,
+    "business_rating": 4.7,
+    "short_description": "Two sets a night from local trios."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:jazz_club",
+     "name": "Jazz Club",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:live_music_venue",
+     "name": "Live Music Venue",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8985,
+    "lon": -87.6222
+   }
+  },
+  {
+   "entity_id": "6B28535E-CB3F-41D6-A3B5-E91F623C4897",
+   "name": "Hidden Garden Speakeasy",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.79,
+   "properties": {
+    "address": "2986 Fulton Market",
+    "price_level": 3,
+    "business_rating": 4.6,
+    "short_description": "Cocktails behind an unmarked door."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:cocktail_bar",
+     "name": "Cocktail Bar",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8895,
+    "lon": -87.6142
+   }
+  },
+  {
+   "entity_id": "8711847E-0F97-4B57-A27F-FC75D651FF52",
+   "name": "Echo Hall",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.84,
+   "properties": {
+    "address": "3363 Wells St",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "600-capacity room for touring indie bands."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:live_music_venue",
+     "name": "Live Music Venue",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9035,
+    "lon": -87.6342
+   }
+  },
+  {
+   "entity_id": "755EB7BA-FD2E-4368-AD8C-5AE2D44EFFAB",
+   "name": "Analog Arcade Bar",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "1340 Belmont Ave",
+    "price_level": 1,
+    "business_rating": 4.5,
+    "short_description": "Pinball, cabinets and craft beer."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:arcade_bar",
+     "name": "Arcade Bar",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8835,
+    "lon": -87.6202
+   }
+  },
+  {
+   "entity_id": "C8605E97-8684-4B3B-A275-B0C3061C59D4",
+   "name": "Open Mic Cellar",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.74,
+   "properties": {
+    "address": "1717 Lincoln Ave",
+    "price_level": 1,
+    "business_rating": 4.4,
+    "short_description": "Stand-up in a basement, five dollars at the door."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:comedy_club",
+     "name": "Comedy Club",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8945,
+    "lon": -87.6392
+   }
+  },
+  {
+   "entity_id": "EAC86462-6B05-4029-A565-EE354BCC3C61",
+   "name": "Side B Vinyl Lounge",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.76,
+   "properties": {
+    "address": "2094 Ashland Ave",
+    "price_level": 2,
+    "business_rating": 4.6,
+    "short_description": "Hi-fi listening bar with a deep record wall."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:listening_bar",
+     "name": "Listening Bar",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8875,
+    "lon": -87.6292
+   }
+  },
+  {
+   "entity_id": "AD15A63F-8C71-400A-A348-495227D5A7CD",
+   "name": "Karaoke Box Neon",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.78,
+   "properties": {
+    "address": "2471 Grand Ave",
+    "price_level": 1,
+    "business_rating": 4.4,
+    "short_description": "Private karaoke rooms with a K-pop heavy catalogue."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:karaoke",
+     "name": "Karaoke",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8965,
+    "lon": -87.6172
+   }
+  },
+  {
+   "entity_id": "69DBF578-53C2-4323-A0FC-CD7B9627C6BC",
+   "name": "Disco Laundry",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.81,
+   "properties": {
+    "address": "2848 Halsted St",
+    "price_level": 2,
+    "business_rating": 4.3,
+    "short_description": "House and disco until late."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:nightclub",
+     "name": "Nightclub",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8805,
+    "lon": -87.6112
+   }
+  },
+  {
+   "entity_id": "DB8874C7-A7AC-4AD6-AD50-932B844F1657",
+   "name": "Lumen Immersive Gallery",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.77,
+   "properties": {
+    "address": "3225 Milwaukee Ave",
+    "price_level": 2,
+    "business_rating": 4.4,
+    "short_description": "Room-sized light and sound installations."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:art_gallery",
+     "name": "Art Gallery",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9085,
+    "lon": -87.6152
+   }
+  },
+  {
+   "entity_id": "812BD9A1-5116-44E9-A05B-2DEECAAA85B2",
+   "name": "Board & Brew Café",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.75,
+   "properties": {
+    "address": "1202 Division St",
+    "price_level": 1,
+    "business_rating": 4.6,
+    "short_description": "Seven hundred board games and good coffee."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:board_game_cafe",
+     "name": "Board Game Café",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8755,
+    "lon": -87.6252
+   }
+  },
+  {
+   "entity_id": "7117906B-F030-4D9E-AAA1-BD1A3A6DC2C6",
+   "name": "Moonlight Rooftop Cinema",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.79,
+   "properties": {
+    "address": "1579 Clark St",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "Cult classics on a rooftop with blankets."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:outdoor_cinema",
+     "name": "Outdoor Cinema",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9005,
+    "lon": -87.6372
+   }
+  },
+  {
+   "entity_id": "A3857AE4-F642-47B1-A30B-11497EC2C534",
+   "name": "Contemporary Art Annex",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "1956 Armitage Ave",
+    "price_level": 1,
+    "business_rating": 4.6,
+    "short_description": "Rotating contemporary exhibitions."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:museum",
+     "name": "Museum",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:art_gallery",
+     "name": "Art Gallery",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8915,
+    "lon": -87.6072
+   }
+  },
+  {
+   "entity_id": "EF5E3944-FBD4-4A4E-A9D7-644B003AAFF9",
+   "name": "Bloom Conservatory",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.82,
+   "properties": {
+    "address": "2333 Damen Ave",
+    "price_level": 1,
+    "business_rating": 4.8,
+    "short_description": "Glasshouses of palms, ferns and orchids."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:botanical_garden",
+     "name": "Botanical Garden",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9185,
+    "lon": -87.6402
+   }
+  },
+  {
+   "entity_id": "7E47C8D8-9FF9-49F3-AAAD-9D6F110F462E",
+   "name": "Riverwalk Night Market",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.8,
+   "properties": {
+    "address": "2710 Fulton Market",
+    "price_level": 1,
+    "business_rating": 4.5,
+    "short_description": "Street food stalls along the river."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:night_market",
+     "name": "Night Market",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8865,
+    "lon": -87.6352
+   }
+  },
+  {
+   "entity_id": "69E9FAC4-4CB2-464E-AF0C-7D9BABF4E8DB",
+   "name": "Paper Moon Bookshop Bar",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.73,
+   "properties": {
+    "address": "3087 Wells St",
+    "price_level": 2,
+    "business_rating": 4.7,
+    "short_description": "Second-hand books and wine by the glass."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:bookstore",
+     "name": "Bookstore",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:wine_bar",
+     "name": "Wine Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9055,
+    "lon": -87.6212
+   }
+  },
+  {
+   "entity_id": "4348D545-504C-432A-ACCC-204440BE61F8",
+   "name": "Tiki Tide Lounge",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.74,
+   "properties": {
+    "address": "1064 Belmont Ave",
+    "price_level": 2,
+    "business_rating": 4.3,
+    "short_description": "Rum drinks under bamboo and neon."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:tiki_bar",
+     "name": "Tiki Bar",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8785,
+    "lon": -87.6172
+   }
+  },
+  {
+   "entity_id": "2F509773-B50B-43B0-A35B-CB58AFDE6571",
+   "name": "Salsa Social",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.72,
+   "properties": {
+    "address": "1441 Lincoln Ave",
+    "price_level": 1,
+    "business_rating": 4.5,
+    "short_description": "Beginner lesson at nine, open floor after."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:dance_hall",
+     "name": "Dance Hall",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.9115,
+    "lon": -87.6292
+   }
+  },
+  {
+   "entity_id": "A3DEFBA2-92F8-4FAE-AFFC-A4FBAE0BBD4D",
+   "name": "Pixel Planetarium",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.79,
+   "properties": {
+    "address": "1818 Ashland Ave",
+    "price_level": 1,
+    "business_rating": 4.6,
+    "short_description": "Dome shows and late-night laser sets."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:planetarium",
+     "name": "Planetarium",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8705,
+    "lon": -87.6092
+   }
+  },
+  {
+   "entity_id": "5D82A3C0-F426-4C8C-A408-0F50AF4B90E2",
+   "name": "Velvet Wine Room",
+   "types": [
+    "urn:entity:place"
+   ],
+   "popularity": 0.75,
+   "properties": {
+    "address": "2195 Grand Ave",
+    "price_level": 2,
+    "business_rating": 4.5,
+    "short_description": "Natural wine, low light, small plates."
+   },
+   "tags": [
+    {
+     "id": "urn:tag:category:place:wine_bar",
+     "name": "Wine Bar",
+     "type": "urn:tag:category:place"
+    },
+    {
+     "id": "urn:tag:category:place:bar",
+     "name": "Bar",
+     "type": "urn:tag:category:place"
+    }
+   ],
+   "location": {
+    "lat": 41.8975,
+    "lon": -87.6322
+   }
+  }
+ ]
+}

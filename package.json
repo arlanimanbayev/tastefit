@@ -1,0 +1,26 @@
+{
+  "name": "tastefit",
+  "version": "1.0.0",
+  "description": "An AI concierge agent that plans one night out that fits a whole group of friends, grounded in Qloo's Taste AI.",
+  "license": "MIT",
+  "author": "Arlan Imanbayev",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js",
+    "test": "node --test",
+    "fixtures": "node scripts/build-fixtures.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "keywords": [
+    "qloo",
+    "taste-ai",
+    "agent",
+    "gemini",
+    "hackathon"
+  ]
+}

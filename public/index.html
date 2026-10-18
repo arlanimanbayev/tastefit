@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TasteFit</title>
+  <meta name="description" content="Plan one night out that fits the whole group. An AI agent grounded in Qloo's Taste AI picks dinner, somewhere to go, a film and a playlist, and shows who each pick fits.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#eceef2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#12131f" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/theme.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="TasteFit home">
+      <span class="wordmark-mark" aria-hidden="true"><i data-color="coral"></i><i data-color="teal"></i><i data-color="cobalt"></i></span>
+      TasteFit
+    </a>
+    <div class="topbar-right">
+      <span class="pill" id="qloo-pill"><span class="dot"></span><span>Checking Qloo…</span></span>
+      <span class="pill agent-pill" id="agent-pill"><span class="dot"></span><span>Agent</span></span>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="composer" aria-labelledby="headline">
+      <h1 class="headline" id="headline">One night that fits <span id="headline-names">everyone</span>.</h1>
+      <p class="lede">Add each friend’s favourite artists, films, books and food. The TasteFit agent asks Qloo’s taste graph what your whole group will enjoy, plans dinner, somewhere to go, a film and a playlist, and shows how well each pick fits each person.</p>
+
+      <form class="composer-form" id="plan-form" novalidate>
+        <ol class="people" id="people" aria-label="Your group"></ol>
+        <button type="button" class="ghost" id="add-person">Add a friend</button>
+
+        <div class="fields">
+          <label class="field">
+            <span class="field-label">City</span>
+            <input id="city" name="city" autocomplete="address-level2" maxlength="60" placeholder="e.g. Chicago" required>
+          </label>
+          <fieldset class="field">
+            <legend>Occasion</legend>
+            <div class="segmented">
+              <label><input type="radio" name="occasion" value="night_out" checked><span>Night out</span></label>
+              <label><input type="radio" name="occasion" value="day_out"><span>Weekend day</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>Budget</legend>
+            <div class="segmented">
+              <label><input type="radio" name="budget" value="1"><span>$</span></label>
+              <label><input type="radio" name="budget" value="2" checked><span>$$</span></label>
+              <label><input type="radio" name="budget" value="3"><span>$$$</span></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <button type="submit" class="primary" id="plan-button">Plan our night</button>
+        <p class="form-error" id="form-error" role="alert"></p>
+        <button type="button" class="sample-link" id="load-sample">Reset to the sample group</button>
+      </form>
+    </section>
+
+    <section class="stage" id="stage" aria-live="polite" aria-busy="false"></section>
+  </main>
+
+  <footer class="footer">
+    <span>TasteFit is open source under the MIT license.</span>
+    <span>Recommendations come from Qloo’s Taste AI. Plans are suggestions, not bookings.</span>
+  </footer>
+</body>
+</html>

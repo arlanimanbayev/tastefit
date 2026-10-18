@@ -1,0 +1,1202 @@
+{
+ "note": "Mock-only taste model. Never returned in a response; used to compute deterministic demo affinities.",
+ "entityFacets": {
+  "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9": {
+   "indie": 1,
+   "mellow": 0.8,
+   "emotional": 1,
+   "literary": 0.4
+  },
+  "649CF656-2F02-4B78-A13E-CF2AD18A8F40": {
+   "indie": 1,
+   "emotional": 1,
+   "arthouse": 0.5,
+   "japanese": 0.2
+  },
+  "D9571B39-1CC9-409E-A9ED-A0ACD91F88DB": {
+   "indie": 0.9,
+   "mellow": 1,
+   "nature": 0.5,
+   "emotional": 0.5
+  },
+  "6D24F7A2-C9E3-4126-ACB6-7ADD316F3422": {
+   "emotional": 0.8,
+   "retro": 0.7,
+   "pop": 0.5,
+   "romance": 0.5
+  },
+  "835203BA-01BE-4F32-A5D3-CFDCFE73D686": {
+   "pop": 1,
+   "emotional": 0.6,
+   "romance": 0.6
+  },
+  "713EAF22-EF2F-4822-AF52-2470BF7B739A": {
+   "pop": 0.8,
+   "highenergy": 0.7,
+   "rnb": 1
+  },
+  "EF0C6BA2-0FB4-4A23-A4D0-C55F590B2215": {
+   "hiphop": 1,
+   "literary": 0.5,
+   "highenergy": 0.5
+  },
+  "1B34B508-4F60-4E7B-AF61-0C20E41F08A1": {
+   "rnb": 1,
+   "mellow": 0.7,
+   "emotional": 0.6,
+   "indie": 0.4
+  },
+  "8506632B-2F9B-445A-A987-C0D1EDB1536A": {
+   "rnb": 1,
+   "emotional": 0.6,
+   "pop": 0.5
+  },
+  "56E16C76-333C-43D3-AA56-390FA1C306EB": {
+   "electronic": 1,
+   "nightlife": 0.8,
+   "retro": 0.6,
+   "french": 0.6,
+   "scifi": 0.4
+  },
+  "1970BD59-7AE1-47D8-A295-72433BB5F37A": {
+   "electronic": 1,
+   "nightlife": 0.8,
+   "emotional": 0.5
+  },
+  "CD373F15-14BA-45FC-AE12-05F9F4E41B1F": {
+   "indie": 0.7,
+   "retro": 0.7,
+   "electronic": 0.4,
+   "mellow": 0.5
+  },
+  "5469375C-8FFE-4610-A425-4CB5998C6B58": {
+   "mellow": 0.8,
+   "retro": 0.8,
+   "jazz": 0.4,
+   "adventurous": 0.5
+  },
+  "996C19CA-98CB-4E9D-ACAD-BC7255A7AF20": {
+   "indie": 0.7,
+   "arthouse": 0.7,
+   "emotional": 0.7,
+   "scifi": 0.4
+  },
+  "954B4ACB-BF37-4900-A313-2D2B26220990": {
+   "indie": 0.8,
+   "nightlife": 0.6,
+   "retro": 0.5
+  },
+  "E36B0AA9-36C2-478F-AC82-C97E01DCC2B1": {
+   "korean": 1,
+   "pop": 1,
+   "highenergy": 0.6
+  },
+  "98E4D2F9-355D-4376-A895-B9244C3CC412": {
+   "korean": 1,
+   "pop": 1,
+   "highenergy": 0.7
+  },
+  "BDBC5B77-49EF-4D5C-A50A-E58BCED10789": {
+   "korean": 0.9,
+   "pop": 1,
+   "highenergy": 0.8,
+   "nightlife": 0.5
+  },
+  "E9BB7D97-124D-4B10-A199-2B0AE0A033E3": {
+   "latin": 1,
+   "nightlife": 0.9,
+   "highenergy": 0.9
+  },
+  "4AB7DBEE-5ED5-4942-A237-5340FAB8AC62": {
+   "latin": 0.9,
+   "arthouse": 0.6,
+   "pop": 0.5
+  },
+  "E9C5648B-9DCB-4897-AA9A-D4078B492F6A": {
+   "jazz": 1,
+   "retro": 0.7,
+   "mellow": 0.6
+  },
+  "559DCCC3-D51E-49A7-A010-3F4A7C63BEFD": {
+   "jazz": 0.8,
+   "mellow": 1,
+   "cozy": 0.8
+  },
+  "B93361DC-D29F-41AF-AECD-91F5BB1CB342": {
+   "jazz": 1,
+   "adventurous": 0.6
+  },
+  "0F3A8269-F8F7-43D0-AE4E-235B3BE19F7E": {
+   "pop": 0.8,
+   "emotional": 0.7,
+   "indie": 0.5
+  },
+  "3860BA15-B1F1-44F1-AE76-F64A1C3A4B4B": {
+   "pop": 0.9,
+   "emotional": 0.8
+  },
+  "E710CECE-11CC-4AC6-A290-E874ADA38DCC": {
+   "retro": 1,
+   "mellow": 0.6,
+   "romance": 0.5
+  },
+  "1FB10AFC-867C-4CF9-A087-105B07A7B56A": {
+   "retro": 0.8,
+   "rnb": 0.7,
+   "highenergy": 0.4,
+   "family": 0.5
+  },
+  "1C44D74F-E4DE-4CBA-AE77-ED098C5E4BDF": {
+   "indie": 0.6,
+   "emotional": 0.7,
+   "literary": 0.6,
+   "nature": 0.5
+  },
+  "C3C1974E-4459-4F8A-A8D3-583CE0175AA1": {
+   "indie": 0.8,
+   "literary": 0.6,
+   "highenergy": 0.4
+  },
+  "0B6026C8-9ADE-4CAF-A2FC-47CB69F919BE": {
+   "electronic": 0.8,
+   "nightlife": 0.9,
+   "indie": 0.5
+  },
+  "8D589AAB-2AAC-4734-AF8E-A0654C2B9FCD": {
+   "rnb": 0.7,
+   "nightlife": 0.8,
+   "retro": 0.5,
+   "pop": 0.6
+  },
+  "F5B4F062-7C59-4F4C-AC49-127D17EA0A2C": {
+   "pop": 1,
+   "retro": 0.5,
+   "romance": 0.4
+  },
+  "342B7FC6-85EF-4DBE-A307-8431F161A20F": {
+   "mellow": 0.7,
+   "emotional": 0.7,
+   "japanese": 0.3,
+   "indie": 0.4
+  },
+  "F6908B8E-275F-4E33-AA55-282546DBE316": {
+   "japanese": 1,
+   "arthouse": 0.8,
+   "mellow": 0.8
+  },
+  "98059534-5C87-47BE-A39A-F0E4D1EFF61E": {
+   "japanese": 1,
+   "pop": 0.8,
+   "emotional": 0.6
+  },
+  "558932CD-6D38-4A28-A9E4-845340AC09C8": {
+   "indie": 0.8,
+   "mellow": 0.9,
+   "cozy": 0.5
+  },
+  "FCFD9B67-5A6E-46A2-A98F-660FA4730518": {
+   "indie": 0.9,
+   "korean": 0.5,
+   "emotional": 0.6,
+   "literary": 0.4
+  },
+  "0EFBD98F-7F68-443A-A96F-3970C0ACD77A": {
+   "hiphop": 0.7,
+   "rnb": 0.5,
+   "comedy": 0.5,
+   "retro": 0.4
+  },
+  "0A0967F5-2E17-4A8C-A826-558E116C2967": {
+   "mellow": 1,
+   "emotional": 0.6,
+   "cozy": 0.6
+  },
+  "62BDE320-EC8B-435C-A327-E5526ED38401": {
+   "electronic": 0.6,
+   "hiphop": 0.5,
+   "scifi": 0.4,
+   "comedy": 0.3,
+   "nerdy": 0.4
+  },
+  "BF6B4FE2-CE87-4148-A652-3811FC54BBCB": {
+   "indie": 0.8,
+   "mellow": 0.8,
+   "cozy": 0.6
+  },
+  "0F677F12-C3E5-44C8-AEAD-69ACB038D015": {
+   "electronic": 0.6,
+   "mellow": 0.8,
+   "retro": 0.4
+  },
+  "117BD341-4F55-4409-A9FA-5BF61AEAE5CC": {
+   "latin": 1,
+   "retro": 0.8,
+   "jazz": 0.5,
+   "mellow": 0.5
+  },
+  "B738905C-9417-49F9-A199-AE18C66E064E": {
+   "korean": 1,
+   "pop": 0.7,
+   "emotional": 0.6,
+   "mellow": 0.4
+  },
+  "5DBE48E3-1FB7-41C5-A0B3-D05BBDD306A7": {
+   "korean": 1,
+   "arthouse": 0.8,
+   "comedy": 0.4,
+   "thriller": 0.7
+  },
+  "2FFB58F2-04D3-4717-A501-287CA40E9474": {
+   "indie": 1,
+   "emotional": 0.7,
+   "comedy": 0.6,
+   "literary": 0.5
+  },
+  "1EA67F39-1C2F-4BF4-A445-B0E972D5FEB8": {
+   "scifi": 1,
+   "arthouse": 0.6,
+   "mellow": 0.5
+  },
+  "B81BA0D0-971A-4A26-AD6A-B1C9F7B35C91": {
+   "scifi": 0.6,
+   "comedy": 0.8,
+   "emotional": 0.7,
+   "adventurous": 0.7,
+   "family": 0.4
+  },
+  "64361303-514B-4D55-A69E-41317AE638CB": {
+   "korean": 0.8,
+   "romance": 0.9,
+   "emotional": 0.9,
+   "indie": 0.7
+  },
+  "37090779-3B78-4BDF-A7C6-AFA95640D8B2": {
+   "comedy": 0.8,
+   "retro": 0.6,
+   "arthouse": 0.6,
+   "nerdy": 0.4
+  },
+  "8A02D382-832A-4D92-A071-45A3399B8133": {
+   "japanese": 1,
+   "family": 0.8,
+   "adventurous": 0.7
+  },
+  "01EB0589-8333-4128-AD4B-49CDEFB00EE4": {
+   "romance": 0.8,
+   "jazz": 0.9,
+   "retro": 0.5,
+   "emotional": 0.6
+  },
+  "4B630FD3-FF5A-47A2-A7DC-A6554E0572DF": {
+   "emotional": 0.9,
+   "arthouse": 0.8,
+   "indie": 0.6
+  },
+  "A640793F-3DA4-44D5-AEBA-8F7E77C36778": {
+   "jazz": 1,
+   "highenergy": 0.7,
+   "emotional": 0.5
+  },
+  "3CDBC257-F5EF-4A70-AD70-D1E838046BF7": {
+   "scifi": 1,
+   "adventurous": 0.9,
+   "highenergy": 0.5
+  },
+  "0BCA1407-F8A9-4B9B-AE02-3AE5E3CCE4ED": {
+   "scifi": 0.9,
+   "emotional": 0.6,
+   "literary": 0.6,
+   "mellow": 0.4
+  },
+  "50874B41-C44D-4376-A75B-DF8923E083C3": {
+   "french": 1,
+   "romance": 0.7,
+   "cozy": 0.7,
+   "comedy": 0.5
+  },
+  "B3E6B40F-BFAD-42D3-AF05-DD709AC9DB1C": {
+   "romance": 0.9,
+   "arthouse": 1,
+   "retro": 0.7,
+   "mellow": 0.6
+  },
+  "AA1797E9-AA88-4C36-AA43-01078D22646A": {
+   "highenergy": 1,
+   "adventurous": 0.9,
+   "scifi": 0.5
+  },
+  "355816A2-73AA-4084-AA67-EC5E4CC64536": {
+   "thriller": 1,
+   "comedy": 0.3,
+   "arthouse": 0.4
+  },
+  "5BF021A3-3D35-4083-A5B8-E3D5ABA0E5F9": {
+   "thriller": 0.6,
+   "comedy": 0.8,
+   "nerdy": 0.5
+  },
+  "65AECB46-E379-4B61-AC8D-F91CDB14E7CA": {
+   "romance": 1,
+   "literary": 0.7,
+   "mellow": 0.7,
+   "indie": 0.5
+  },
+  "548E699B-16C2-489B-AA5B-8956D50858C6": {
+   "emotional": 1,
+   "indie": 0.8,
+   "mellow": 0.7,
+   "retro": 0.4
+  },
+  "13C7279C-D47F-49D0-A4B9-7FC38FF1959C": {
+   "scifi": 1,
+   "emotional": 0.7,
+   "adventurous": 0.6
+  },
+  "AAB4D0AA-1D15-4678-AF71-7A9EE5BADF27": {
+   "nerdy": 0.9,
+   "thriller": 0.4,
+   "literary": 0.5
+  },
+  "C2B5A880-BC99-419F-AE9C-B2653CF4140F": {
+   "foodie": 1,
+   "comedy": 0.6,
+   "cozy": 0.6,
+   "latin": 0.4
+  },
+  "B8C1D7F3-A045-4B4A-A9C9-FF9C4FE56401": {
+   "highenergy": 0.7,
+   "hiphop": 0.6,
+   "family": 0.6,
+   "comedy": 0.5,
+   "nerdy": 0.5
+  },
+  "03B2D6D9-E004-4A9B-AE32-05C11A860613": {
+   "korean": 0.9,
+   "thriller": 0.8,
+   "romance": 0.6,
+   "arthouse": 0.7
+  },
+  "6FDC49F9-B717-4DF8-AA4B-E957C3674075": {
+   "pop": 0.8,
+   "comedy": 0.8,
+   "retro": 0.3
+  },
+  "24F56BA1-DD7F-4253-A622-BA4081710645": {
+   "literary": 0.6,
+   "thriller": 0.6,
+   "nerdy": 0.6
+  },
+  "9A3C181E-ED9F-4CC3-ADF3-78E71D547A81": {
+   "romance": 0.8,
+   "scifi": 0.5,
+   "emotional": 0.8,
+   "indie": 0.6
+  },
+  "1493EAAF-2468-4F3F-AE43-648B220FCF74": {
+   "japanese": 1,
+   "emotional": 0.8,
+   "family": 0.5,
+   "arthouse": 0.7
+  },
+  "CC688EBA-050C-4CEC-AD06-C26AAAEBC778": {
+   "japanese": 0.9,
+   "foodie": 1,
+   "mellow": 0.5
+  },
+  "5E9A56C1-C48A-4AE0-AE78-613AAF67FB41": {
+   "comedy": 0.7,
+   "romance": 0.6,
+   "adventurous": 0.6,
+   "retro": 0.7,
+   "family": 0.6
+  },
+  "0A37D2F0-7C6F-4146-A66A-4005B1BE70F4": {
+   "foodie": 1,
+   "french": 0.8,
+   "family": 0.9,
+   "comedy": 0.5
+  },
+  "1ED2B6F9-DC63-4AC6-AEBC-B7BCB2AEB43E": {
+   "mexican": 1,
+   "family": 0.9,
+   "emotional": 0.7
+  },
+  "02B43C7F-D376-42A2-A8B5-2C4810429519": {
+   "mexican": 0.9,
+   "arthouse": 0.9,
+   "emotional": 0.7
+  },
+  "2EE8BFEF-B345-4800-A82B-271B26337E5F": {
+   "japanese": 0.8,
+   "mellow": 0.8,
+   "romance": 0.5,
+   "indie": 0.6,
+   "nightlife": 0.4
+  },
+  "CE372AE9-D2E9-4F96-AF29-FDAD71F8B95F": {
+   "family": 1,
+   "cozy": 0.9,
+   "comedy": 0.7
+  },
+  "E1EA69D4-1CEC-4C67-A865-F69B96381698": {
+   "scifi": 1,
+   "highenergy": 0.7,
+   "nerdy": 0.5,
+   "electronic": 0.4
+  },
+  "AD29889D-034F-4EED-A814-0FFA9E600113": {
+   "korean": 0.9,
+   "foodie": 0.8,
+   "cozy": 0.9,
+   "nature": 0.7,
+   "mellow": 0.7
+  },
+  "88E1AE2A-4B99-4782-ABCA-E7293C301874": {
+   "korean": 0.9,
+   "thriller": 0.7,
+   "arthouse": 0.9,
+   "literary": 0.6
+  },
+  "443EF182-C5E2-4C53-AFE3-E54EB506BACB": {
+   "foodie": 1,
+   "highenergy": 0.6,
+   "emotional": 0.6
+  },
+  "ADE173BD-9EF3-447F-A0F8-17AD64AC3FB9": {
+   "comedy": 0.9,
+   "emotional": 0.6,
+   "literary": 0.5
+  },
+  "1109CCC8-ABB4-4A9B-AB62-291288BB02BC": {
+   "comedy": 0.6,
+   "thriller": 0.5,
+   "literary": 0.5
+  },
+  "F217BB2E-F448-4ACF-A476-EFF7F70129D0": {
+   "scifi": 0.8,
+   "thriller": 0.7,
+   "nerdy": 0.5
+  },
+  "C2C7D717-53AE-4E3D-A890-78B34AA879BB": {
+   "scifi": 0.7,
+   "retro": 0.9,
+   "adventurous": 0.7,
+   "nerdy": 0.6
+  },
+  "16C7B6EB-95A7-47AC-AB41-A0841D8C0147": {
+   "comedy": 0.8,
+   "hiphop": 0.8,
+   "arthouse": 0.6
+  },
+  "3A30CE8A-8E14-4FAA-A0B2-D45397E46C77": {
+   "romance": 0.9,
+   "emotional": 0.9,
+   "literary": 0.8,
+   "indie": 0.5
+  },
+  "FC9631CC-5369-40FD-AE72-77B8F502DFD8": {
+   "comedy": 1,
+   "cozy": 0.7
+  },
+  "48D45AB9-5CDB-4172-A5D0-C73EC048BE02": {
+   "korean": 1,
+   "thriller": 0.9,
+   "highenergy": 0.6
+  },
+  "9AA7B9BB-0DB5-4F47-ABA4-7716836247B4": {
+   "comedy": 0.9,
+   "cozy": 0.7,
+   "family": 0.5
+  },
+  "D12EF63E-867A-4C97-ADA3-A67422FFFAFB": {
+   "foodie": 1,
+   "arthouse": 0.5,
+   "adventurous": 0.5
+  },
+  "AFDD40E7-1579-41D1-A3E1-446613084945": {
+   "japanese": 1,
+   "adventurous": 0.7,
+   "literary": 0.5
+  },
+  "0834EC67-C130-4494-AD73-4C4D92B70BE8": {
+   "romance": 0.8,
+   "emotional": 0.9,
+   "literary": 1,
+   "indie": 0.5
+  },
+  "650C2B0C-26BE-4825-AED3-0FA46B636B53": {
+   "scifi": 1,
+   "adventurous": 0.8,
+   "literary": 0.6
+  },
+  "D8A6A934-BE41-47B0-AB66-B35445CC7C37": {
+   "scifi": 1,
+   "nerdy": 0.8,
+   "comedy": 0.4
+  },
+  "A8B733A1-9F17-417D-A5DF-63EAF40C4782": {
+   "emotional": 0.7,
+   "cozy": 0.6,
+   "literary": 0.5
+  },
+  "5001155F-0191-457F-AB3B-7344F9E82ABF": {
+   "nerdy": 0.8,
+   "emotional": 0.7,
+   "literary": 0.7,
+   "retro": 0.4
+  },
+  "4A33A4A0-9543-4986-A470-8474BBDA1A49": {
+   "foodie": 1,
+   "nightlife": 0.6,
+   "adventurous": 0.6
+  },
+  "9DBEC7D4-0CEC-4303-A08A-CD36DE681890": {
+   "korean": 0.9,
+   "japanese": 0.5,
+   "literary": 0.9,
+   "emotional": 0.7
+  },
+  "908E3D0C-37C8-4182-A4FE-A4BCEF18DF56": {
+   "literary": 0.9,
+   "adventurous": 0.5,
+   "romance": 0.4
+  },
+  "F3E2606C-9A52-42E6-ABC1-38B495C1FF3F": {
+   "japanese": 1,
+   "mellow": 0.7,
+   "literary": 0.8,
+   "emotional": 0.7,
+   "retro": 0.4
+  },
+  "523B470D-0869-40D9-A545-D2B58D72546B": {
+   "nerdy": 0.8,
+   "literary": 0.6
+  },
+  "282C0FDC-8432-4EBE-A6A1-AA736DCD17D6": {
+   "adventurous": 0.9,
+   "family": 0.6,
+   "cozy": 0.5,
+   "nerdy": 0.5
+  },
+  "3194B23A-2DDA-4016-A2FC-7CA30B9C56C9": {
+   "korean": 1,
+   "foodie": 0.8,
+   "emotional": 0.9,
+   "literary": 0.7
+  },
+  "AC2AE7F9-CE78-4E81-A93C-100E30BFB9FE": {
+   "literary": 0.9,
+   "emotional": 0.7,
+   "romance": 0.5,
+   "indie": 0.5
+  },
+  "B6859443-3802-43A1-A587-755E45F38401": {
+   "romance": 0.8,
+   "retro": 0.6,
+   "pop": 0.5
+  },
+  "3A62E51C-6FAF-4368-A3A8-FBD68F2DFB38": {
+   "scifi": 0.6,
+   "literary": 0.8,
+   "emotional": 0.7,
+   "japanese": 0.3
+  },
+  "E7A02EA5-6573-421B-A0E8-3D8AE56100E1": {
+   "korean": 1,
+   "spicy": 0.6,
+   "nightlife": 0.4,
+   "casual": 0.5,
+   "foodie": 0.5
+  },
+  "8E49F693-D6D3-4A10-AB2C-3677219602F0": {
+   "japanese": 0.8,
+   "cozy": 0.6,
+   "nightlife": 0.6,
+   "casual": 0.8
+  },
+  "19C2BE10-5B42-4DE7-AF6F-AB2E613F798C": {
+   "mexican": 1,
+   "spicy": 0.6,
+   "casual": 0.8,
+   "latin": 0.6
+  },
+  "6220C096-E756-4831-AD51-499F2F42DE31": {
+   "japanese": 1,
+   "upscale": 1,
+   "foodie": 0.8
+  },
+  "62FDAB2F-5D88-4029-AE36-42F71F75C8EF": {
+   "spicy": 1,
+   "casual": 0.7,
+   "cozy": 0.4,
+   "adventurous": 0.4
+  },
+  "2C8AE988-B685-4313-A68D-14DD79C2D217": {
+   "italian": 1,
+   "casual": 0.6,
+   "family": 0.5,
+   "cozy": 0.5
+  },
+  "6183A7C9-943F-4C6E-ABE7-C14598BAD257": {
+   "healthy": 1,
+   "indie": 0.5,
+   "cozy": 0.5
+  },
+  "12096AE3-AA73-4E2F-A3FF-2DC1B658BD2C": {
+   "highenergy": 0.5,
+   "casual": 0.7,
+   "retro": 0.4,
+   "family": 0.4
+  },
+  "9FBBD065-EFCC-46C5-A476-8269894A94B1": {
+   "french": 1,
+   "romance": 0.7,
+   "upscale": 0.7,
+   "retro": 0.4
+  },
+  "39C5856E-DEF7-48E5-A8DB-D9307FCD3657": {
+   "family": 0.7,
+   "casual": 0.6,
+   "adventurous": 0.4
+  },
+  "DAF00912-BEC8-43F7-A875-1C2405611398": {
+   "spicy": 0.8,
+   "cozy": 0.5,
+   "adventurous": 0.6
+  },
+  "5F804CE6-4360-493C-AE1A-668910C6B331": {
+   "healthy": 0.7,
+   "romance": 0.5,
+   "mellow": 0.5
+  },
+  "577088BF-4D60-4C13-ADD2-A4BB1541C5D5": {
+   "korean": 0.9,
+   "casual": 0.9,
+   "nightlife": 0.6,
+   "highenergy": 0.5
+  },
+  "4FFE2634-319E-4FA4-AD1E-DF6115C9BDBE": {
+   "japanese": 1,
+   "nightlife": 0.8,
+   "casual": 0.5,
+   "foodie": 0.6
+  },
+  "E46B80B0-67FA-4704-A34C-D67282902594": {
+   "upscale": 0.7,
+   "romance": 0.6,
+   "foodie": 0.6
+  },
+  "C33D60B6-2FAC-4A30-A9B5-309B80E18CF1": {
+   "casual": 1,
+   "retro": 0.5,
+   "family": 0.5
+  },
+  "30CCA769-A43E-43B3-A90F-4ACC1E63BF59": {
+   "adventurous": 0.6,
+   "casual": 0.8,
+   "healthy": 0.4
+  },
+  "5BEDFB9F-C210-449D-A7BB-6E3E35BC3A1A": {
+   "jazz": 1,
+   "nightlife": 0.8,
+   "retro": 0.5,
+   "mellow": 0.5,
+   "romance": 0.4
+  },
+  "6B28535E-CB3F-41D6-A3B5-E91F623C4897": {
+   "nightlife": 0.9,
+   "romance": 0.6,
+   "retro": 0.6,
+   "upscale": 0.6
+  },
+  "8711847E-0F97-4B57-A27F-FC75D651FF52": {
+   "indie": 1,
+   "nightlife": 0.8,
+   "highenergy": 0.6
+  },
+  "755EB7BA-FD2E-4368-AD8C-5AE2D44EFFAB": {
+   "retro": 1,
+   "nerdy": 0.9,
+   "nightlife": 0.6,
+   "comedy": 0.3
+  },
+  "C8605E97-8684-4B3B-A275-B0C3061C59D4": {
+   "comedy": 1,
+   "nightlife": 0.6,
+   "casual": 0.5
+  },
+  "EAC86462-6B05-4029-A565-EE354BCC3C61": {
+   "retro": 0.7,
+   "mellow": 0.9,
+   "jazz": 0.5,
+   "indie": 0.5,
+   "japanese": 0.3
+  },
+  "AD15A63F-8C71-400A-A348-495227D5A7CD": {
+   "korean": 0.6,
+   "pop": 1,
+   "highenergy": 0.8,
+   "nightlife": 0.7
+  },
+  "69DBF578-53C2-4323-A0FC-CD7B9627C6BC": {
+   "electronic": 1,
+   "nightlife": 1,
+   "highenergy": 1,
+   "latin": 0.4
+  },
+  "DB8874C7-A7AC-4AD6-AD50-932B844F1657": {
+   "arthouse": 0.9,
+   "scifi": 0.5,
+   "electronic": 0.4,
+   "day": 0.5
+  },
+  "812BD9A1-5116-44E9-A05B-2DEECAAA85B2": {
+   "nerdy": 1,
+   "cozy": 0.9,
+   "casual": 0.7
+  },
+  "7117906B-F030-4D9E-AAA1-BD1A3A6DC2C6": {
+   "arthouse": 0.6,
+   "romance": 0.7,
+   "indie": 0.5
+  },
+  "A3857AE4-F642-47B1-A30B-11497EC2C534": {
+   "arthouse": 1,
+   "literary": 0.5,
+   "day": 1
+  },
+  "EF5E3944-FBD4-4A4E-A9D7-644B003AAFF9": {
+   "nature": 1,
+   "mellow": 0.8,
+   "day": 1,
+   "romance": 0.3
+  },
+  "7E47C8D8-9FF9-49F3-AAAD-9D6F110F462E": {
+   "foodie": 0.7,
+   "adventurous": 0.7,
+   "casual": 0.7,
+   "nightlife": 0.5
+  },
+  "69E9FAC4-4CB2-464E-AF0C-7D9BABF4E8DB": {
+   "literary": 1,
+   "cozy": 0.9,
+   "indie": 0.6,
+   "mellow": 0.5
+  },
+  "4348D545-504C-432A-ACCC-204440BE61F8": {
+   "retro": 0.8,
+   "nightlife": 0.7,
+   "latin": 0.3
+  },
+  "2F509773-B50B-43B0-A35B-CB58AFDE6571": {
+   "latin": 1,
+   "highenergy": 0.8,
+   "nightlife": 0.8
+  },
+  "A3DEFBA2-92F8-4FAE-AFFC-A4FBAE0BBD4D": {
+   "scifi": 1,
+   "nerdy": 0.8,
+   "mellow": 0.4,
+   "day": 0.6
+  },
+  "5D82A3C0-F426-4C8C-A408-0F50AF4B90E2": {
+   "romance": 0.7,
+   "mellow": 0.7,
+   "upscale": 0.4,
+   "french": 0.3
+  }
+ },
+ "tagFacets": {
+  "urn:tag:genre:place:restaurant": {
+   "foodie": 0.6
+  },
+  "urn:tag:genre:place:restaurant:korean": {
+   "korean": 1,
+   "spicy": 0.4
+  },
+  "urn:tag:genre:place:restaurant:japanese": {
+   "japanese": 1
+  },
+  "urn:tag:genre:place:restaurant:ramen": {
+   "japanese": 0.8,
+   "cozy": 0.6,
+   "casual": 0.6
+  },
+  "urn:tag:genre:place:restaurant:sushi": {
+   "japanese": 1,
+   "upscale": 0.5,
+   "foodie": 0.5
+  },
+  "urn:tag:genre:place:restaurant:mexican": {
+   "mexican": 1,
+   "latin": 0.5,
+   "spicy": 0.4
+  },
+  "urn:tag:genre:place:restaurant:thai": {
+   "spicy": 1,
+   "adventurous": 0.4
+  },
+  "urn:tag:genre:place:restaurant:italian": {
+   "italian": 1,
+   "cozy": 0.4
+  },
+  "urn:tag:genre:place:restaurant:pizza": {
+   "italian": 0.8,
+   "casual": 0.8,
+   "family": 0.4
+  },
+  "urn:tag:genre:place:restaurant:indian": {
+   "spicy": 0.8,
+   "adventurous": 0.5
+  },
+  "urn:tag:genre:place:restaurant:chinese": {
+   "family": 0.5,
+   "adventurous": 0.4
+  },
+  "urn:tag:genre:place:restaurant:dim_sum": {
+   "family": 0.6,
+   "casual": 0.5
+  },
+  "urn:tag:genre:place:restaurant:french": {
+   "french": 1,
+   "romance": 0.5,
+   "upscale": 0.5
+  },
+  "urn:tag:genre:place:restaurant:mediterranean": {
+   "healthy": 0.7,
+   "mellow": 0.4
+  },
+  "urn:tag:genre:place:restaurant:vegan": {
+   "healthy": 1,
+   "indie": 0.4
+  },
+  "urn:tag:genre:place:restaurant:vegetarian": {
+   "healthy": 0.9
+  },
+  "urn:tag:genre:place:restaurant:barbecue": {
+   "casual": 0.7,
+   "highenergy": 0.3,
+   "retro": 0.3
+  },
+  "urn:tag:genre:place:restaurant:seafood": {
+   "upscale": 0.5,
+   "romance": 0.4
+  },
+  "urn:tag:genre:place:restaurant:burgers": {
+   "casual": 1,
+   "retro": 0.4
+  },
+  "urn:tag:genre:place:restaurant:vietnamese": {
+   "adventurous": 0.5,
+   "healthy": 0.4
+  },
+  "urn:tag:category:place:bar": {
+   "nightlife": 1
+  },
+  "urn:tag:category:place:cocktail_bar": {
+   "nightlife": 0.9,
+   "upscale": 0.5,
+   "retro": 0.3
+  },
+  "urn:tag:category:place:jazz_club": {
+   "jazz": 1,
+   "nightlife": 0.7
+  },
+  "urn:tag:category:place:live_music_venue": {
+   "indie": 0.6,
+   "nightlife": 0.8,
+   "highenergy": 0.5
+  },
+  "urn:tag:category:place:comedy_club": {
+   "comedy": 1,
+   "nightlife": 0.5
+  },
+  "urn:tag:category:place:karaoke": {
+   "pop": 0.8,
+   "highenergy": 0.7
+  },
+  "urn:tag:category:place:nightclub": {
+   "electronic": 0.8,
+   "nightlife": 1,
+   "highenergy": 1
+  },
+  "urn:tag:category:place:museum": {
+   "arthouse": 0.8,
+   "literary": 0.4,
+   "day": 1
+  },
+  "urn:tag:category:place:art_gallery": {
+   "arthouse": 1,
+   "day": 0.6
+  },
+  "urn:tag:category:place:botanical_garden": {
+   "nature": 1,
+   "mellow": 0.7,
+   "day": 1
+  },
+  "urn:tag:category:place:board_game_cafe": {
+   "nerdy": 1,
+   "cozy": 0.8
+  },
+  "urn:tag:category:place:arcade_bar": {
+   "retro": 0.9,
+   "nerdy": 0.8,
+   "nightlife": 0.5
+  },
+  "urn:tag:category:place:night_market": {
+   "foodie": 0.6,
+   "adventurous": 0.6,
+   "casual": 0.6
+  },
+  "urn:tag:category:place:bookstore": {
+   "literary": 1,
+   "cozy": 0.7
+  },
+  "urn:tag:category:place:outdoor_cinema": {
+   "arthouse": 0.5,
+   "romance": 0.6
+  },
+  "urn:tag:category:place:planetarium": {
+   "scifi": 0.9,
+   "nerdy": 0.7,
+   "day": 0.5
+  },
+  "urn:tag:category:place:dance_hall": {
+   "latin": 0.6,
+   "highenergy": 0.8,
+   "nightlife": 0.7
+  },
+  "urn:tag:category:place:listening_bar": {
+   "mellow": 0.8,
+   "retro": 0.6,
+   "jazz": 0.4
+  },
+  "urn:tag:category:place:tiki_bar": {
+   "retro": 0.8,
+   "nightlife": 0.7
+  },
+  "urn:tag:category:place:wine_bar": {
+   "romance": 0.6,
+   "mellow": 0.6,
+   "upscale": 0.4
+  }
+ },
+ "tagSynonyms": {
+  "urn:tag:genre:place:restaurant": [
+   "restaurant",
+   "dinner",
+   "food"
+  ],
+  "urn:tag:genre:place:restaurant:korean": [
+   "korean",
+   "korean food",
+   "kbbq",
+   "korean bbq",
+   "bibimbap",
+   "korean fried chicken",
+   "kimchi"
+  ],
+  "urn:tag:genre:place:restaurant:japanese": [
+   "japanese",
+   "izakaya",
+   "japanese food"
+  ],
+  "urn:tag:genre:place:restaurant:ramen": [
+   "ramen",
+   "noodles",
+   "noodle"
+  ],
+  "urn:tag:genre:place:restaurant:sushi": [
+   "sushi",
+   "omakase",
+   "sashimi"
+  ],
+  "urn:tag:genre:place:restaurant:mexican": [
+   "mexican",
+   "tacos",
+   "taco",
+   "burrito",
+   "mexican food",
+   "al pastor"
+  ],
+  "urn:tag:genre:place:restaurant:thai": [
+   "thai",
+   "pad thai",
+   "thai food",
+   "curry"
+  ],
+  "urn:tag:genre:place:restaurant:italian": [
+   "italian",
+   "pasta",
+   "italian food"
+  ],
+  "urn:tag:genre:place:restaurant:pizza": [
+   "pizza",
+   "pizzeria"
+  ],
+  "urn:tag:genre:place:restaurant:indian": [
+   "indian",
+   "biryani",
+   "indian food",
+   "tikka"
+  ],
+  "urn:tag:genre:place:restaurant:chinese": [
+   "chinese",
+   "dumplings",
+   "chinese food"
+  ],
+  "urn:tag:genre:place:restaurant:dim_sum": [
+   "dim sum",
+   "bao",
+   "dumpling"
+  ],
+  "urn:tag:genre:place:restaurant:french": [
+   "french",
+   "bistro",
+   "croissant",
+   "french food"
+  ],
+  "urn:tag:genre:place:restaurant:mediterranean": [
+   "mediterranean",
+   "greek",
+   "falafel",
+   "hummus",
+   "mezze"
+  ],
+  "urn:tag:genre:place:restaurant:vegan": [
+   "vegan",
+   "plant based",
+   "plant-based"
+  ],
+  "urn:tag:genre:place:restaurant:vegetarian": [
+   "vegetarian",
+   "salad",
+   "veggie"
+  ],
+  "urn:tag:genre:place:restaurant:barbecue": [
+   "bbq",
+   "barbecue",
+   "brisket",
+   "smokehouse",
+   "ribs"
+  ],
+  "urn:tag:genre:place:restaurant:seafood": [
+   "seafood",
+   "oysters",
+   "fish",
+   "lobster"
+  ],
+  "urn:tag:genre:place:restaurant:burgers": [
+   "burger",
+   "burgers",
+   "fries"
+  ],
+  "urn:tag:genre:place:restaurant:vietnamese": [
+   "vietnamese",
+   "pho",
+   "banh mi"
+  ],
+  "urn:tag:category:place:bar": [
+   "bar",
+   "bars",
+   "drinks",
+   "pub"
+  ],
+  "urn:tag:category:place:cocktail_bar": [
+   "cocktail",
+   "cocktails",
+   "speakeasy",
+   "cocktail bar"
+  ],
+  "urn:tag:category:place:jazz_club": [
+   "jazz club"
+  ],
+  "urn:tag:category:place:live_music_venue": [
+   "live music",
+   "concert",
+   "gig",
+   "music venue"
+  ],
+  "urn:tag:category:place:comedy_club": [
+   "comedy",
+   "stand-up",
+   "standup",
+   "comedy club"
+  ],
+  "urn:tag:category:place:karaoke": [
+   "karaoke",
+   "noraebang"
+  ],
+  "urn:tag:category:place:nightclub": [
+   "club",
+   "clubbing",
+   "nightclub",
+   "dancing"
+  ],
+  "urn:tag:category:place:museum": [
+   "museum",
+   "museums"
+  ],
+  "urn:tag:category:place:art_gallery": [
+   "gallery",
+   "art",
+   "art gallery",
+   "exhibition"
+  ],
+  "urn:tag:category:place:botanical_garden": [
+   "garden",
+   "park",
+   "botanical garden",
+   "nature"
+  ],
+  "urn:tag:category:place:board_game_cafe": [
+   "board games",
+   "board game cafe",
+   "games"
+  ],
+  "urn:tag:category:place:arcade_bar": [
+   "arcade",
+   "barcade",
+   "video games"
+  ],
+  "urn:tag:category:place:night_market": [
+   "market",
+   "night market",
+   "street food"
+  ],
+  "urn:tag:category:place:bookstore": [
+   "bookstore",
+   "books",
+   "bookshop"
+  ],
+  "urn:tag:category:place:outdoor_cinema": [
+   "cinema",
+   "movies",
+   "outdoor cinema"
+  ],
+  "urn:tag:category:place:planetarium": [
+   "planetarium",
+   "space",
+   "stars"
+  ],
+  "urn:tag:category:place:dance_hall": [
+   "salsa",
+   "dance hall",
+   "dance class"
+  ],
+  "urn:tag:category:place:listening_bar": [
+   "listening bar",
+   "vinyl",
+   "record bar"
+  ],
+  "urn:tag:category:place:tiki_bar": [
+   "tiki",
+   "tiki bar"
+  ],
+  "urn:tag:category:place:wine_bar": [
+   "wine",
+   "wine bar",
+   "natural wine"
+  ]
+ }
+}

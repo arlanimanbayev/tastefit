@@ -1,0 +1,896 @@
+{
+ "tags": [
+  {
+   "id": "urn:tag:genre:place:restaurant",
+   "name": "Restaurant",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:korean",
+   "name": "Korean",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:japanese",
+   "name": "Japanese",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:ramen",
+   "name": "Ramen",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:sushi",
+   "name": "Sushi",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:mexican",
+   "name": "Mexican",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:thai",
+   "name": "Thai",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:italian",
+   "name": "Italian",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:pizza",
+   "name": "Pizza",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:indian",
+   "name": "Indian",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:chinese",
+   "name": "Chinese",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:dim_sum",
+   "name": "Dim Sum",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:french",
+   "name": "French",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:mediterranean",
+   "name": "Mediterranean",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:vegan",
+   "name": "Vegan",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:vegetarian",
+   "name": "Vegetarian",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:barbecue",
+   "name": "Barbecue",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:seafood",
+   "name": "Seafood",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:burgers",
+   "name": "Burgers",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:place:restaurant:vietnamese",
+   "name": "Vietnamese",
+   "type": "urn:tag:genre:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:bar",
+   "name": "Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:cocktail_bar",
+   "name": "Cocktail Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:jazz_club",
+   "name": "Jazz Club",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:live_music_venue",
+   "name": "Live Music Venue",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:comedy_club",
+   "name": "Comedy Club",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:karaoke",
+   "name": "Karaoke",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:nightclub",
+   "name": "Nightclub",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:museum",
+   "name": "Museum",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:art_gallery",
+   "name": "Art Gallery",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:botanical_garden",
+   "name": "Botanical Garden",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:board_game_cafe",
+   "name": "Board Game Café",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:arcade_bar",
+   "name": "Arcade Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:night_market",
+   "name": "Night Market",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:bookstore",
+   "name": "Bookstore",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:outdoor_cinema",
+   "name": "Outdoor Cinema",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:planetarium",
+   "name": "Planetarium",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:dance_hall",
+   "name": "Dance Hall",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:listening_bar",
+   "name": "Listening Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:tiki_bar",
+   "name": "Tiki Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:category:place:wine_bar",
+   "name": "Wine Bar",
+   "type": "urn:tag:category:place",
+   "parents": [
+    {
+     "type": "urn:entity:place"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:indie_folk",
+   "name": "Indie Folk",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:indie_rock",
+   "name": "Indie Rock",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:indie_pop",
+   "name": "Indie Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:k_pop",
+   "name": "K-Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:r_and_b",
+   "name": "R&B",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:hip_hop",
+   "name": "Hip Hop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:electronic",
+   "name": "Electronic",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:house",
+   "name": "House",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:jazz",
+   "name": "Jazz",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:pop",
+   "name": "Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:latin",
+   "name": "Latin",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:soul",
+   "name": "Soul",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:dream_pop",
+   "name": "Dream Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:psychedelic",
+   "name": "Psychedelic",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:alt_pop",
+   "name": "Alt Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:ambient",
+   "name": "Ambient",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:j_pop",
+   "name": "J-Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:bedroom_pop",
+   "name": "Bedroom Pop",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:singer_songwriter",
+   "name": "Singer-Songwriter",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:soft_rock",
+   "name": "Soft Rock",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:neo_classical",
+   "name": "Neo-Classical",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:music:funk",
+   "name": "Funk",
+   "type": "urn:tag:genre:music",
+   "parents": [
+    {
+     "type": "urn:entity:artist"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:drama",
+   "name": "Drama",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:comedy",
+   "name": "Comedy",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:science_fiction",
+   "name": "Science Fiction",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:romance",
+   "name": "Romance",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:thriller",
+   "name": "Thriller",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:animation",
+   "name": "Animation",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:documentary",
+   "name": "Documentary",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:coming_of_age",
+   "name": "Coming of Age",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:musical",
+   "name": "Musical",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:arthouse",
+   "name": "Arthouse",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:adventure",
+   "name": "Adventure",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:literary_fiction",
+   "name": "Literary Fiction",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:memoir",
+   "name": "Memoir",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:fantasy",
+   "name": "Fantasy",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:nonfiction",
+   "name": "Nonfiction",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:food",
+   "name": "Food & Cooking",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  },
+  {
+   "id": "urn:tag:genre:media:family",
+   "name": "Family",
+   "type": "urn:tag:genre:media",
+   "parents": [
+    {
+     "type": "urn:entity:movie"
+    },
+    {
+     "type": "urn:entity:tv_show"
+    },
+    {
+     "type": "urn:entity:book"
+    }
+   ]
+  }
+ ]
+}

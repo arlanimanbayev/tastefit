@@ -1,0 +1,38 @@
+{
+ "success": true,
+ "results": {
+  "entities": [
+   {
+    "id": "0B5E1C02-2C0F-4E8A-9D5D-3F1C1C9E7A11",
+    "name": "Example Film",
+    "types": ["urn:entity:movie"],
+    "popularity": "0.81",
+    "properties": {
+     "description": "A longer description used when short_description is absent.",
+     "release_date": "2019-05-30",
+     "image": { "url": "https://images.example.com/film.jpg" }
+    },
+    "tags": [{ "tag_id": "urn:tag:genre:media:drama", "name": "Drama", "subtype": "urn:tag:genre:media" }],
+    "query": {
+     "affinity": 0.912,
+     "explainability": { "signal.interests.entities": { "AAA-1": 0.7, "BBB-2": 0.2 } }
+    }
+   },
+   {
+    "entity_id": "9F2A6E2B-7C9D-4B1F-8A3E-2D4C6B8A0E55",
+    "name": "Example Bistro",
+    "type": "urn:entity",
+    "subtype": "urn:entity:place",
+    "properties": {
+     "address": { "formatted": "12 Example St, Springfield" },
+     "price_level": 3,
+     "business_rating": 4.4,
+     "image": "http://insecure.example.com/x.jpg"
+    },
+    "location": { "latitude": 41.9, "longitude": -87.6 },
+    "query": { "affinity": 0.88 }
+   },
+   { "name": "Missing id is dropped" }
+  ]
+ }
+}

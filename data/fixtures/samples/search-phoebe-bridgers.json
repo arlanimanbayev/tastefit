@@ -1,0 +1,32 @@
+{
+ "results": [
+  {
+   "entity_id": "6BD1D5DF-FBCA-4543-A280-ECB3C7FB51B9",
+   "name": "Phoebe Bridgers",
+   "types": [
+    "urn:entity:artist"
+   ],
+   "popularity": 0.93,
+   "properties": {
+    "short_description": "American singer-songwriter"
+   },
+   "tags": [
+    {
+     "id": "urn:tag:genre:music:indie_folk",
+     "name": "Indie Folk",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:indie_rock",
+     "name": "Indie Rock",
+     "type": "urn:tag:genre:music"
+    },
+    {
+     "id": "urn:tag:genre:music:singer_songwriter",
+     "name": "Singer-Songwriter",
+     "type": "urn:tag:genre:music"
+    }
+   ]
+  }
+ ]
+}
