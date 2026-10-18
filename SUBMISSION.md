@@ -1,9 +1,9 @@
 # TasteFit: Devpost submission text
 
-Copy each section into the matching Devpost field. Replace the two bracketed links before submitting.
+Copy each section into the matching Devpost field.
 
-- **Live demo:** [add your Vercel URL]
-- **Code:** [add your GitHub repo URL] (MIT license)
+- **Live demo:** https://tastefit.vercel.app
+- **Code:** https://github.com/arlanimanbayev/tastefit (MIT license)
 - **Tagline:** One night out that fits the whole group, planned by an agent grounded in Qloo's taste graph.
 
 ---

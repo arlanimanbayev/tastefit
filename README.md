@@ -4,6 +4,8 @@
 
 Built for the [Qloo Agentic Hackathon](https://qloo.devpost.com/).
 
+**Live demo: [tastefit.vercel.app](https://tastefit.vercel.app)**
+
 ![TasteFit plan view](docs/screenshots/03b-plan-top-desktop-light.png)
 
 <p>
@@ -89,15 +91,15 @@ Demo data is labelled in the header and above the plan. Artists, films, shows an
 Requires Node.js 20 or newer. There are no runtime dependencies, so `npm install` isn't needed.
 
 ```sh
-git clone <your-repo-url> tastefit && cd tastefit
+git clone https://github.com/arlanimanbayev/tastefit.git tastefit && cd tastefit
 npm test                 # 54 unit tests (node:test), no network
 npm run dev              # http://localhost:3000 in demo mode
 ```
 
-To use live data, copy `.env.example` to `.env` and fill in your keys. `dev-server.js` loads `.env`, and the file is git-ignored.
+To use live data, copy `env.example` to `.env` and fill in your keys. `dev-server.js` loads `.env`, and the file is git-ignored.
 
 ```sh
-cp .env.example .env
+cp env.example .env
 # QLOO_API_KEY=...   GEMINI_API_KEY=...
 npm run dev
 ```
