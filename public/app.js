@@ -626,7 +626,7 @@ function metersHtml(s, idx) {
       return `<li class="meter ${level === 'unknown' ? 'is-unknown' : ''}" data-color="${f.color}" style="--v:${f.norm ?? 0};--i:${idx * 3 + k}">
         <span class="meter-name">${esc(f.person)}</span>
         <span class="meter-bar" aria-hidden="true"><span class="meter-fill"></span></span>
-        <span class="meter-text"><b>${LEVEL_LABEL[level]}</b>${f.raw != null ? ` <span title="Qloo affinity for ${esc(f.person)}">${fmt2(f.raw)}</span>` : ''}${why ? `<span class="why">${esc(why)}</span>` : ''}</span>
+        <span class="meter-text"><b>${LEVEL_LABEL[level]}</b>${typeof f.norm === 'number' && level !== 'unknown' ? ` <span title="${esc(f.person)}’s match vs. their best option here${f.raw != null ? ` (raw Qloo affinity ${fmt2(f.raw)})` : ''}">${Math.round(f.norm * 100)}%</span>` : ''}${why ? `<span class="why">${esc(why)}</span>` : ''}</span>
       </li>`;
     })
     .join('')}</ul>`;
@@ -670,7 +670,7 @@ function evidenceHtml(s) {
           : ''
       }
       ${req ? `<div><h4>Qloo request</h4><p class="req">${esc(req)}</p></div>` : ''}
-      <p class="ev-note">Bars and per-person columns compare options within each person’s own Qloo call (1.00 = their best option here). Numbers next to fit labels are raw Qloo affinity scores.${ev.constraints?.length ? ` Applied: ${esc(ev.constraints.join(', '))}.` : ''}${ev.relaxed ? ' Qloo’s category filter returned nothing here, so it was relaxed.' : ''}${ev.budgetRelaxed ? ' Nothing matched the budget, so it was relaxed.' : ''}</p>
+      <p class="ev-note">Bars and percentages compare options within each person’s own Qloo call (100% = their best option for this slot). The table shows raw Qloo affinity scores.${ev.constraints?.length ? ` Applied: ${esc(ev.constraints.join(', '))}.` : ''}${ev.relaxed ? ' Qloo’s category filter returned nothing here, so it was relaxed.' : ''}${ev.budgetRelaxed ? ' Nothing matched the budget, so it was relaxed.' : ''}</p>
     </div>
   </details>`;
 }
