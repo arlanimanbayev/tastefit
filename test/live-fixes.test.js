@@ -52,3 +52,12 @@ test('day out uses daytime categories', () => {
   assert.ok(ACTIVITY_CATEGORIES.day_out.includes('urn:tag:category:place:museum'));
   assert.ok(!ACTIVITY_CATEGORIES.day_out.includes('urn:tag:category:place:night_club'));
 });
+
+test('food favourites resolve to restaurant-genre tags and dinner serves one of them', async () => {
+  const { plan } = await planNight(structuredClone(SAMPLE_INPUT), { qloo: mockQloo(), llm: null });
+  const dinner = plan.slots.find((s) => s.slot === 'dinner');
+  assert.ok(dinner, 'dinner slot present');
+  const cuisineFit = dinner.fits.find((f) => /love of/i.test(f.because || ''));
+  assert.ok(cuisineFit, 'at least one person gets the dinner because of their cuisine');
+  assert.equal(cuisineFit.level, 'great');
+});
