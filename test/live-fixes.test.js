@@ -61,3 +61,19 @@ test('food favourites resolve to restaurant-genre tags and dinner serves one of 
   assert.ok(cuisineFit, 'at least one person gets the dinner because of their cuisine');
   assert.equal(cuisineFit.level, 'great');
 });
+
+test('client retries HTTP 429 (rate limit) and paces live calls', async () => {
+  let n = 0;
+  const starts = [];
+  const fakeFetch = async () => {
+    starts.push(Date.now());
+    n += 1;
+    if (n <= 2) return new Response('{"error_msg":"Rate limit exceeded"}', { status: 429 });
+    return new Response(JSON.stringify({ results: [] }), { status: 200 });
+  };
+  const qloo = createQlooClient({ apiKey: 'k', baseUrl: 'https://example.test', fetchImpl: fakeFetch, cache: null, minIntervalMs: 40 });
+  const body = await qloo.search({ query: 'x' });
+  assert.deepEqual(body, { results: [] });
+  assert.equal(n, 3, 'two rate-limited attempts, then success');
+  for (let i = 1; i < starts.length; i += 1) assert.ok(starts[i] - starts[i - 1] >= 35, 'calls are spaced out');
+});
