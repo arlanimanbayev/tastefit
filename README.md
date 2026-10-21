@@ -92,7 +92,7 @@ Requires Node.js 20 or newer. There are no runtime dependencies, so `npm install
 
 ```sh
 git clone https://github.com/arlanimanbayev/tastefit.git tastefit && cd tastefit
-npm test                 # 54 unit tests (node:test), no network
+npm test                 # 59 unit tests (node:test), no network
 npm run dev              # http://localhost:3000 in demo mode
 ```
 
@@ -114,7 +114,7 @@ npm run screenshots      # drives the UI in demo mode and writes docs/screenshot
 
 1. Push this folder to a public GitHub repository. The MIT `LICENSE` file makes the license show in the repo's About section.
 2. In Vercel, choose **Add New → Project**, import the repository, and keep the **Other** framework preset. No build command is needed: `public/` is served as static files and `api/*.js` become Node.js functions. `vercel.json` sets `maxDuration: 30` and bundles `data/fixtures/`.
-3. In **Settings → Environment Variables**, add `QLOO_API_KEY` and `GEMINI_API_KEY`. `GEMINI_MODEL` and `QLOO_BASE_URL` are optional. Then redeploy.
+3. In **Settings → Environment Variables**, add `QLOO_API_KEY` and `GEMINI_API_KEY`. For a hackathon key also set `QLOO_BASE_URL=https://hackathon.api.qloo.com`; `GEMINI_MODEL` is optional. Then redeploy.
 4. Open the deployment. The header should read **Live Qloo data** and **Agent: gemini-…**.
 
 ## Environment variables
@@ -122,7 +122,7 @@ npm run screenshots      # drives the UI in demo mode and writes docs/screenshot
 | Name | Default | Notes |
 | --- | --- | --- |
 | `QLOO_API_KEY` | none | Qloo hackathon key. Without it the app runs on demo data. |
-| `QLOO_BASE_URL` | `https://api.qloo.com` | Set this if Qloo issued a different host for your key. |
+| `QLOO_BASE_URL` | `https://api.qloo.com` | Hackathon keys use `https://hackathon.api.qloo.com`. |
 | `GEMINI_API_KEY` | none | Google AI Studio key. Without it the scripted planner runs. |
 | `GEMINI_MODEL` | `gemini-3.5-flash-lite` | Fastest current Flash-Lite. `gemini-3.8-flash` writes richer reasons but is slower. |
 | `QLOO_RESTAURANT_TAG` | `urn:tag:genre:place:restaurant` | Category tag for the dinner slot. |

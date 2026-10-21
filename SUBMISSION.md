@@ -22,7 +22,7 @@ TasteFit plans an evening (or a weekend day) for 2 to 5 friends in any city:
 - An agent resolves every favourite to a Qloo entity or cuisine tag. It then asks Qloo's Insights API for a dinner spot, somewhere to go after, a film and a set of artists for a shared playlist, using the whole group's favourites as signals.
 - For every candidate it makes a separate Qloo ranking call per person, so it knows how well each option fits each friend instead of guessing.
 - It balances the night so nobody is left out. If one person has no great match, a fairness pass swaps the pick that costs the group least.
-- Every pick comes with a plain-language reason naming who it fits and why ("Matches Ana's indie folk side (Phoebe Bridgers) and Ben's love of Korean food"). It also shows a coloured fit meter per person with the Qloo affinity score, and an evidence panel with the runners-up and the exact Qloo request.
+- Every pick comes with a plain-language reason naming who it fits and why ("Matches Ana's indie folk side (Phoebe Bridgers) and Ben's love of Korean food"). It also shows a coloured fit meter per person (how this option compares with their best option for that part of the night), and an evidence panel with raw Qloo affinities, the runners-up and the exact Qloo request.
 - You can re-plan in plain words, on a card or in the chat box: "cheaper", "closer", "no sushi", "a lighter film", "more chill playlist". The agent swaps just that slot and remembers hard constraints. Preferences like "lighter" become Qloo tag signals on a fresh Insights call.
 - The agent's steps stream into the UI live, so you can watch it work.
 
@@ -31,10 +31,10 @@ TasteFit plans an evening (or a weekend day) for 2 to 5 friends in any city:
 Without Qloo there is nothing to plan with: no real venues for the city, no cross-domain links between someone's music taste and a restaurant, and no per-person fit. Qloo calls in each plan:
 
 - `GET /search` resolves each favourite to a Qloo entity.
-- `GET /v2/tags` (semantic search) resolves dishes, cuisines and preferences to tag URNs.
-- `GET /v2/insights` runs once per slot (`urn:entity:place`, `urn:entity:movie`, `urn:entity:artist`) with everyone's favourites as `signal.interests.entities`, cuisine tags as `signal.interests.tags`, and the city as `filter.location.query`.
+- `GET /v2/tags` resolves dishes and cuisines ("Korean food", "ramen") to Qloo's restaurant-genre tags, and preferences like "lighter" to tag URNs via semantic search.
+- `GET /v2/insights` runs once per slot (`urn:entity:place`, `urn:entity:movie`, `urn:entity:artist`) with everyone's favourites as `signal.interests.entities` and the city as `filter.location.query`. Dinner is filtered (`filter.tags`, union) to restaurants serving a cuisine someone asked for; the after-dinner slot is filtered to bars, live-music venues, comedy and jazz clubs (museums, parks and galleries for a weekend day), with arenas excluded.
 - `GET /v2/insights` with `filter.results.entities` runs once per person per slot, ranking the same candidates against that person's taste alone.
-- `GET /v2/insights` with `filter.type=urn:tag` finds the taste tags the group shares.
+- `GET /v2/insights` with `filter.type=urn:tag` and `filter.tag.types` (music and media genres) finds the tastes the group shares.
 
 Planning for the preloaded three-person sample group takes 28 Qloo requests: 10 lookups, 1 occasion tag, 4 group calls, 1 taste-profile call and 12 per-person rankings. The UI shows the count and what each call contributed.
 
@@ -44,7 +44,7 @@ Planning for the preloaded three-person sample group takes 28 Qloo requests: 10 
 - **Guardrails:** every pick Gemini commits is checked against the candidates Qloo actually returned. If a reason names nobody, or was written for a different entity, it's replaced by one generated from the Qloo scores. The loop has a turn cap and a time budget. When Gemini is unavailable, slow or stops early, a scripted policy using the same tools finishes the plan, so the demo always returns a valid plan.
 - **Scoring:** Qloo notes that scores from separate calls aren't directly comparable, so each person's affinities are normalised within their own call. The pick score blends group affinity, mean fit and the worst-off person's fit, with a boost for people who haven't had a great match yet. The playlist is built greedily so each person gets at least one of their top artists.
 - **Stack:** plain Node.js serverless functions on Vercel with zero runtime dependencies, NDJSON streaming for the live trace, and a vanilla HTML/CSS/JS front end that works on phones, in light and dark themes. The API is stateless: the browser holds a compact session and sends it back when re-planning.
-- **Testing:** 54 unit tests with `node:test`, covering scoring, the Qloo client against fixture responses, the Gemini loop against a fake Gemini endpoint, replanning and the HTTP handlers. A Playwright script drives the full UI flow on desktop and mobile in both themes and checks for layout overflow and console errors.
+- **Testing:** 59 unit tests with `node:test`, covering scoring, the Qloo client against fixture responses, the Gemini loop against a fake Gemini endpoint, replanning and the HTTP handlers. A Playwright script drives the full UI flow on desktop and mobile in both themes and checks for layout overflow and console errors.
 - **Demo mode:** without a Qloo key, a mock backend answers the same URLs with Qloo-shaped JSON, so the real client code still runs. It is clearly labelled "Demo data" in the UI.
 
 ## Challenges we ran into
@@ -52,7 +52,8 @@ Planning for the preloaded three-person sample group takes 28 Qloo requests: 10 
 - **Making "who is this for?" honest.** One group call over-represents whoever listed the most favourites. Separate per-person ranking calls with within-call normalisation fixed that, and made the fit meters meaningful.
 - **Keeping an LLM agent grounded.** Models like to "improve" picks or write reasons about things they didn't choose. Validating every committed `entity_id` and reason against Qloo results, with deterministic fallbacks, kept the plan trustworthy without losing the natural language.
 - **Re-planning without starting over.** The API had to stay stateless and serverless, yet "no sushi" needed to persist. A validated session round-trip solved it, and only the requested slot is allowed to change, even when the model tries to touch another one.
-- **Speed.** A plan needs dozens of Qloo calls. Parallel calls with a concurrency cap, a short cache and batching the LLM's tool calls into a few turns keep it responsive.
+- **Speed vs. rate limits.** A plan needs about 28 Qloo calls, and the hackathon API rejects bursts of more than about ten. Calls are paced (at most ~8 per second) with a concurrency cap, rate-limited calls are retried with backoff, and a failed per-person ranking gets a second chance, so a plan still lands in about 10 seconds with every score present.
+- **Asking Qloo the right question.** Early live runs paired a ramen and a Korean-food lover with an izakaya and ended the night at a sculpture. Resolving dishes to restaurant-genre tags, filtering dinner by the group's cuisines and the evening slot by place category fixed both, and an exact cuisine match now counts as a great fit for that person.
 
 ## Accomplishments that we're proud of
 
@@ -65,7 +66,7 @@ Planning for the preloaded three-person sample group takes 28 Qloo requests: 10 
 
 - Taste data is most useful when you ask it about individuals and groups separately and compare the two.
 - An agent is more trustworthy when the model chooses and explains, but the data decides.
-- Showing the evidence changes how people read a recommendation: "Great fit 0.82 for Ben, via Korean food" is more convincing than any adjective.
+- Showing the evidence changes how people read a recommendation: "Great fit for Ben, via his love of Korean food" is more convincing than any adjective.
 
 ## What's next
 
